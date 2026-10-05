@@ -43,4 +43,3 @@ No license, public release, immutable scientific release identifier, or paper
 availability link has been activated by this initial staging commit. A versioned
 scientific candidate must pass exact source, scientific, disclosure, rights, and
 release review before it is made public.
-
