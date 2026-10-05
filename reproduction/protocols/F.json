@@ -1,0 +1,259 @@
+{
+  "experiment_A_router": {
+    "additional_controls": [
+      "COMBINED_SEMANTIC_ROUTING",
+      "DETERMINISTIC_KEYWORD_ROUTING_BASELINE",
+      "CONVENTIONAL_TOP_K",
+      "EXHAUSTIVE_ORACLE_EVALUATION"
+    ],
+    "budget_match": "deterministic_rounded_median_candidate_count_separately_for_SMALL_MEDIUM_LARGE",
+    "isolated_arms": [
+      "COSINE_THRESHOLD_ROUTING",
+      "EUCLIDEAN_THRESHOLD_ROUTING",
+      "SIGNED_DOT_THRESHOLD_ROUTING",
+      "LEXICAL_OVERLAP_ROUTING"
+    ],
+    "primary_gate": "governing_recall_gte_0_98_AND_blocking_miss_lte_0_01_AND_median_reduction_gte_0_20",
+    "selection": "calibration_only_then_freeze",
+    "terminal_values": [
+      "A_ROUTING_UTILITY",
+      "A_ROUTING_NO_UTILITY"
+    ],
+    "top_k_grid": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ]
+  },
+  "experiment_B_relation": {
+    "arms": [
+      "COSINE_ONLY",
+      "EUCLIDEAN_ONLY",
+      "SIGNED_DOT_PRODUCT_ONLY",
+      "COSINE_PLUS_EUCLIDEAN",
+      "COSINE_PLUS_DOT_PRODUCT",
+      "EUCLIDEAN_PLUS_DOT_PRODUCT",
+      "COSINE_PLUS_EUCLIDEAN_PLUS_DOT_PRODUCT"
+    ],
+    "calibration_selection": "relation_macro_F1_then_Brier_then_smallest_C",
+    "descriptive_sensitivity": "2000_family_cluster_bootstrap_seed_17023",
+    "effect_floor": 0.03,
+    "exact_test": "4096_sign_flips_over_12_sealed_family_effects",
+    "model": "deterministic_multinomial_logistic_regression",
+    "multiplicity": "Holm_across_six_full_feature_pairwise_comparisons",
+    "primary_difference": "full_feature_macro_F1_minus_best_singleton_macro_F1",
+    "raw_measurements": [
+      "cosine",
+      "euclidean_distance",
+      "signed_dot_product"
+    ],
+    "regularization_grid": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "terminal_values": [
+      "B_INCREMENTAL_MEASUREMENT_UTILITY",
+      "B_NO_INCREMENTAL_MEASUREMENT_UTILITY"
+    ]
+  },
+  "experiment_C_composition": {
+    "candidate": "frozen_best_semantic_router_then_frozen_full_feature_relation_model_then_fixed_action_precedence",
+    "gates": {
+      "accuracy_min": 0.7,
+      "blocking_miss_cluster_upper_95_max": 0.02,
+      "descriptive_cluster_lower_95_gt": 0.0,
+      "exact_sign_flip_p_lt": 0.05,
+      "false_ACT_cluster_upper_95_max": 0.02,
+      "median_policy_evaluation_reduction_min": 0.2,
+      "paired_improvement_min": 0.05
+    },
+    "other_controls": [
+      "CONVENTIONAL_TOP_K",
+      "EACH_ISOLATED_ROUTER",
+      "EXHAUSTIVE_DETERMINISTIC_ORACLE"
+    ],
+    "primary_baseline": "EXHAUSTIVE_SEMANTIC_NO_ROUTER",
+    "primary_difference": "composed_final_disposition_accuracy_minus_exhaustive_semantic_no_router_accuracy",
+    "separate_predecessor_comparator": "ACCEPTED_K_F1E_SERIAL_BASELINE",
+    "terminal_values": [
+      "C_END_TO_END_UTILITY",
+      "C_NO_END_TO_END_UTILITY"
+    ]
+  },
+  "frozen_corpus": {
+    "active_policy_set_sizes": {
+      "LARGE": 128,
+      "MEDIUM": 32,
+      "SMALL": 8
+    },
+    "base_per_family": {
+      "action_policy_pairs": 1344,
+      "actions": 24,
+      "cardinality_actions": {
+        "MULTIPLE_COMPATIBLE": 6,
+        "MULTIPLE_CONFLICTING": 6,
+        "ONE": 6,
+        "ZERO": 6
+      },
+      "dispositions": {
+        "ACT": 7,
+        "ESCALATE": 9,
+        "HOLD": 8
+      },
+      "governing_pairs": 30,
+      "governing_relations": {
+        "ALIGNED": 12,
+        "AMBIGUOUS": 8,
+        "OPPOSED": 10
+      },
+      "non_governing_pairs": 1314
+    },
+    "dual_reproduction": "exact_bytes_Python_and_Ruby_for_all_oracle_gold_join_and_denominator_records",
+    "expansion_substitution_or_favorable_regeneration_after_freeze": "prohibited",
+    "experiment_B_rows_per_family_including_perturbations": 320,
+    "families": {
+      "calibration": 12,
+      "sealed": 12,
+      "total": 30,
+      "validation": 6
+    },
+    "family_blueprint_sha256": "395b7f736b096ccd2acc75fac3fae863382c41fdbe7b2d235e0e1deb5d8dea7c",
+    "generation_contract_sha256": "3094d0fa0e190ee0cc9246f9a77d1da89e238e689a9dfc0595baccc28bea48de",
+    "perturbations": [
+      "BOUNDED_PARAPHRASE",
+      "EXPLICIT_NEGATION",
+      "LEXICAL_DECOY",
+      "WRONG_MISSION_DECOY",
+      "CLAUSE_ORDER",
+      "HARMLESS_WORDING",
+      "UNUSUAL_MISSION_SERVING_ACTION"
+    ],
+    "perturbations_per_base_action": 7,
+    "policy_catalog_per_family": 128,
+    "source_kind": "RIMS_AUTHORED_NONPERSONAL_NONCUSTOMER_SYNTHETIC_TEXT_AND_EXECUTABLE_ORACLE",
+    "split_pairs": {
+      "calibration": 129024,
+      "sealed": 129024,
+      "validation": 64512
+    },
+    "total_actions_including_base": 5760,
+    "total_policy_pairs_including_base": 322560
+  },
+  "frozen_encoders": {
+    "E01": {
+      "identity": "sentence-transformers/all-mpnet-base-v2",
+      "pooling": "attention_masked_mean",
+      "prefixes": "none",
+      "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130"
+    },
+    "E02": {
+      "action_prefix": "query: ",
+      "identity": "intfloat/e5-base-v2",
+      "pooling": "attention_masked_mean",
+      "reference_prefix": "passage: ",
+      "revision": "f52bf8ec8c7124536f0efb74aca902b2995e5bcd"
+    },
+    "maximum_tokens": 512,
+    "model_or_preprocessing_replacement_after_freeze": "prohibited",
+    "vector_source": "pre_normalization_float32"
+  },
+  "maximum_claim": {
+    "ceiling": "RIMS_2026_008_SYSTEM_K_FUNDING_SCREEN_ONLY",
+    "prohibited": [
+      "real_world_policy_legal_or_compliance_correctness",
+      "autonomous_safety_or_compliance_adjudication",
+      "external_validity_beyond_the_frozen_synthetic_world",
+      "universal_encoder_or_production_latency_claims",
+      "claim_from_any_single_favorable_encoder_arm_family_or_perturbation_cell"
+    ],
+    "question": "In the exact frozen synthetic machine-verifiable policy world, do cosine, raw Euclidean distance, and signed dot product provide distinct routing or relation information, and does their frozen composition improve policy screening utility without violating the safety and review-burden gates?"
+  },
+  "projection_kind": "SCIENTIFIC_PROTOCOL_NOT_OPERATIONAL_RECEIPT",
+  "reporting_and_invalidators": {
+    "adverse_outcomes_preserved": [
+      "SAFETY_FAIL",
+      "A_ROUTING_NO_UTILITY",
+      "B_NO_INCREMENTAL_MEASUREMENT_UTILITY",
+      "C_NO_END_TO_END_UTILITY",
+      "INVALID",
+      "INFEASIBLE"
+    ],
+    "favorable_only_disposition": "impossible",
+    "invalidators": [
+      "oracle_or_split_field_exposure_before_prediction_freeze",
+      "constructor_or_clean_root_byte_disagreement",
+      "census_duplicate_join_hash_or_required_cell_failure",
+      "nonfinite_zero_norm_or_invalid_measurement",
+      "mutable_image_model_or_source_identity",
+      "nonpristine_replica_namespace",
+      "substantive_two_replica_disagreement"
+    ],
+    "required": [
+      "all_A_B_C_component_tables",
+      "pair_and_action_denominators",
+      "confusion_matrices",
+      "calibration",
+      "abstention",
+      "family",
+      "encoder",
+      "size",
+      "cardinality",
+      "perturbation",
+      "latency",
+      "cost",
+      "invalidity",
+      "negative_controls",
+      "exact_hashes"
+    ],
+    "separate_terminals_required": [
+      "A",
+      "B",
+      "C",
+      "overall_funding_screen"
+    ]
+  },
+  "semantic_oracle_boundary": {
+    "explicit_negation": "mechanically_flips_ALIGNED_and_OPPOSED_and_changes_the_action_surface",
+    "final_precedence": {
+      "any_ambiguous_or_confidence_below_0_70": "ESCALATE",
+      "otherwise": "ACT",
+      "otherwise_any_opposed": "HOLD",
+      "zero_predicted_governing": "ESCALATE"
+    },
+    "labels": [
+      "ALIGNED",
+      "OPPOSED",
+      "AMBIGUOUS",
+      "NON_GOVERNING"
+    ],
+    "semantic_pipeline_may_not_read": [
+      "family_id",
+      "split",
+      "action_id",
+      "policy_id",
+      "base_action_id",
+      "cardinality",
+      "abstraction",
+      "perturbation_kind",
+      "governing",
+      "relation",
+      "blocking",
+      "expected_disposition"
+    ],
+    "semantic_pipeline_may_read": [
+      "action_text",
+      "policy_text",
+      "aligned_reference_text",
+      "opposed_reference_text",
+      "policy_route_terms"
+    ]
+  },
+  "source_protocol_sha256": "adfd25202328b0822293aa4120c45ee1045e7dd319f1d8aa84a5a78b16ecc5f6",
+  "study": "SYSTEM-K-K-F1F",
+  "title": "Tri-Measure Semantic Policy-Check Utility Study"
+}

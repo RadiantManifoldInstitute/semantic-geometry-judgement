@@ -1,0 +1,31 @@
+{
+  "schema_version": "K_F1C_FAMILY_BLUEPRINT_V0_1",
+  "families": [
+    {"family_id":"FAM_0001","split":"CONSTRUCTION","branch":"GB_A_CONSTRUCTION","motif":"MOTIF_A_01","lexicon":"LEXICON_A_01","template":"TEMPLATE_A_01","content_root":"azurell"},
+    {"family_id":"FAM_0002","split":"CONSTRUCTION","branch":"GB_A_CONSTRUCTION","motif":"MOTIF_A_02","lexicon":"LEXICON_A_02","template":"TEMPLATE_A_02","content_root":"brivon"},
+    {"family_id":"FAM_0003","split":"CONSTRUCTION","branch":"GB_A_CONSTRUCTION","motif":"MOTIF_A_03","lexicon":"LEXICON_A_03","template":"TEMPLATE_A_03","content_root":"caldor"},
+    {"family_id":"FAM_0004","split":"CONSTRUCTION","branch":"GB_A_CONSTRUCTION","motif":"MOTIF_A_04","lexicon":"LEXICON_A_04","template":"TEMPLATE_A_04","content_root":"dervin"},
+    {"family_id":"FAM_0005","split":"CONSTRUCTION","branch":"GB_A_CONSTRUCTION","motif":"MOTIF_A_05","lexicon":"LEXICON_A_05","template":"TEMPLATE_A_05","content_root":"elthar"},
+    {"family_id":"FAM_0006","split":"CONSTRUCTION","branch":"GB_A_CONSTRUCTION","motif":"MOTIF_A_06","lexicon":"LEXICON_A_06","template":"TEMPLATE_A_06","content_root":"fenset"},
+    {"family_id":"FAM_0007","split":"CONSTRUCTION","branch":"GB_A_CONSTRUCTION","motif":"MOTIF_A_07","lexicon":"LEXICON_A_07","template":"TEMPLATE_A_07","content_root":"garlon"},
+    {"family_id":"FAM_0008","split":"CONSTRUCTION","branch":"GB_A_CONSTRUCTION","motif":"MOTIF_A_08","lexicon":"LEXICON_A_08","template":"TEMPLATE_A_08","content_root":"helvik"},
+    {"family_id":"FAM_0009","split":"LOCK_VALIDATION","branch":"GB_A_VALIDATION_VARIANT","motif":"MOTIF_AV_01","lexicon":"LEXICON_B_01","template":"TEMPLATE_B_01","content_root":"ivoran"},
+    {"family_id":"FAM_0010","split":"LOCK_VALIDATION","branch":"GB_A_VALIDATION_VARIANT","motif":"MOTIF_AV_02","lexicon":"LEXICON_B_02","template":"TEMPLATE_B_02","content_root":"jastel"},
+    {"family_id":"FAM_0011","split":"LOCK_VALIDATION","branch":"GB_A_VALIDATION_VARIANT","motif":"MOTIF_AV_03","lexicon":"LEXICON_B_03","template":"TEMPLATE_B_03","content_root":"kelvar"},
+    {"family_id":"FAM_0012","split":"LOCK_VALIDATION","branch":"GB_A_VALIDATION_VARIANT","motif":"MOTIF_AV_04","lexicon":"LEXICON_B_04","template":"TEMPLATE_B_04","content_root":"lumeth"},
+    {"family_id":"FAM_0013","split":"SEALED_HOLDOUT","branch":"GB_B_HOLDOUT","motif":"MOTIF_B_01","lexicon":"LEXICON_C_01","template":"TEMPLATE_C_01","content_root":"merovin"},
+    {"family_id":"FAM_0014","split":"SEALED_HOLDOUT","branch":"GB_B_HOLDOUT","motif":"MOTIF_B_02","lexicon":"LEXICON_C_02","template":"TEMPLATE_C_02","content_root":"nareth"},
+    {"family_id":"FAM_0015","split":"SEALED_HOLDOUT","branch":"GB_B_HOLDOUT","motif":"MOTIF_B_03","lexicon":"LEXICON_C_03","template":"TEMPLATE_C_03","content_root":"orvian"},
+    {"family_id":"FAM_0016","split":"SEALED_HOLDOUT","branch":"GB_B_HOLDOUT","motif":"MOTIF_B_04","lexicon":"LEXICON_C_04","template":"TEMPLATE_C_04","content_root":"pelthor"},
+    {"family_id":"FAM_0017","split":"SEALED_HOLDOUT","branch":"GB_B_HOLDOUT","motif":"MOTIF_B_05","lexicon":"LEXICON_C_05","template":"TEMPLATE_C_05","content_root":"quorin"},
+    {"family_id":"FAM_0018","split":"SEALED_HOLDOUT","branch":"GB_B_HOLDOUT","motif":"MOTIF_B_06","lexicon":"LEXICON_C_06","template":"TEMPLATE_C_06","content_root":"raveth"},
+    {"family_id":"FAM_0019","split":"SEALED_HOLDOUT","branch":"GB_B_HOLDOUT","motif":"MOTIF_B_07","lexicon":"LEXICON_C_07","template":"TEMPLATE_C_07","content_root":"selvon"},
+    {"family_id":"FAM_0020","split":"SEALED_HOLDOUT","branch":"GB_B_HOLDOUT","motif":"MOTIF_B_08","lexicon":"LEXICON_C_08","template":"TEMPLATE_C_08","content_root":"torvik"}
+  ],
+  "split_lexical_operators": {
+    "CONSTRUCTION": {"aligned":"stabilizes","opposed":"disperses","purpose":"continuance"},
+    "LOCK_VALIDATION": {"aligned":"balances","opposed":"scatters","purpose":"persistence"},
+    "SEALED_HOLDOUT": {"aligned":"anchors","opposed":"diffuses","purpose":"endurance"}
+  },
+  "shared_noncontent_allowlist": ["a","an","and","at","by","for","in","is","of","on","or","shall","the","to","within"]
+}

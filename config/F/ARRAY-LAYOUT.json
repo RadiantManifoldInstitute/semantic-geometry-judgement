@@ -1,0 +1,368 @@
+{
+  "prediction-freeze/relation/E01-COSINE_ONLY.npy": {
+    "data_offset": 128,
+    "descr": "<f4",
+    "fortran_order": false,
+    "shape": [
+      322560,
+      4
+    ]
+  },
+  "prediction-freeze/relation/E01-COSINE_PLUS_DOT_PRODUCT.npy": {
+    "data_offset": 128,
+    "descr": "<f4",
+    "fortran_order": false,
+    "shape": [
+      322560,
+      4
+    ]
+  },
+  "prediction-freeze/relation/E01-COSINE_PLUS_EUCLIDEAN.npy": {
+    "data_offset": 128,
+    "descr": "<f4",
+    "fortran_order": false,
+    "shape": [
+      322560,
+      4
+    ]
+  },
+  "prediction-freeze/relation/E01-COSINE_PLUS_EUCLIDEAN_PLUS_DOT_PRODUCT.npy": {
+    "data_offset": 128,
+    "descr": "<f4",
+    "fortran_order": false,
+    "shape": [
+      322560,
+      4
+    ]
+  },
+  "prediction-freeze/relation/E01-EUCLIDEAN_ONLY.npy": {
+    "data_offset": 128,
+    "descr": "<f4",
+    "fortran_order": false,
+    "shape": [
+      322560,
+      4
+    ]
+  },
+  "prediction-freeze/relation/E01-EUCLIDEAN_PLUS_DOT_PRODUCT.npy": {
+    "data_offset": 128,
+    "descr": "<f4",
+    "fortran_order": false,
+    "shape": [
+      322560,
+      4
+    ]
+  },
+  "prediction-freeze/relation/E01-SIGNED_DOT_PRODUCT_ONLY.npy": {
+    "data_offset": 128,
+    "descr": "<f4",
+    "fortran_order": false,
+    "shape": [
+      322560,
+      4
+    ]
+  },
+  "prediction-freeze/relation/E02-COSINE_ONLY.npy": {
+    "data_offset": 128,
+    "descr": "<f4",
+    "fortran_order": false,
+    "shape": [
+      322560,
+      4
+    ]
+  },
+  "prediction-freeze/relation/E02-COSINE_PLUS_DOT_PRODUCT.npy": {
+    "data_offset": 128,
+    "descr": "<f4",
+    "fortran_order": false,
+    "shape": [
+      322560,
+      4
+    ]
+  },
+  "prediction-freeze/relation/E02-COSINE_PLUS_EUCLIDEAN.npy": {
+    "data_offset": 128,
+    "descr": "<f4",
+    "fortran_order": false,
+    "shape": [
+      322560,
+      4
+    ]
+  },
+  "prediction-freeze/relation/E02-COSINE_PLUS_EUCLIDEAN_PLUS_DOT_PRODUCT.npy": {
+    "data_offset": 128,
+    "descr": "<f4",
+    "fortran_order": false,
+    "shape": [
+      322560,
+      4
+    ]
+  },
+  "prediction-freeze/relation/E02-EUCLIDEAN_ONLY.npy": {
+    "data_offset": 128,
+    "descr": "<f4",
+    "fortran_order": false,
+    "shape": [
+      322560,
+      4
+    ]
+  },
+  "prediction-freeze/relation/E02-EUCLIDEAN_PLUS_DOT_PRODUCT.npy": {
+    "data_offset": 128,
+    "descr": "<f4",
+    "fortran_order": false,
+    "shape": [
+      322560,
+      4
+    ]
+  },
+  "prediction-freeze/relation/E02-SIGNED_DOT_PRODUCT_ONLY.npy": {
+    "data_offset": 128,
+    "descr": "<f4",
+    "fortran_order": false,
+    "shape": [
+      322560,
+      4
+    ]
+  },
+  "prediction-freeze/router/E01-COMBINED_SEMANTIC_ROUTING.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E01-CONVENTIONAL_TOP_K.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E01-CONVENTIONAL_TOP_K_K1.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E01-CONVENTIONAL_TOP_K_K16.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E01-CONVENTIONAL_TOP_K_K2.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E01-CONVENTIONAL_TOP_K_K32.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E01-CONVENTIONAL_TOP_K_K4.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E01-CONVENTIONAL_TOP_K_K64.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E01-CONVENTIONAL_TOP_K_K8.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E01-COSINE_THRESHOLD_ROUTING.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E01-DETERMINISTIC_KEYWORD_ROUTING_BASELINE.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E01-EUCLIDEAN_THRESHOLD_ROUTING.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E01-EXHAUSTIVE_ORACLE_EVALUATION.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E01-LEXICAL_OVERLAP_ROUTING.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E01-SIGNED_DOT_THRESHOLD_ROUTING.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E02-COMBINED_SEMANTIC_ROUTING.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E02-CONVENTIONAL_TOP_K.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E02-CONVENTIONAL_TOP_K_K1.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E02-CONVENTIONAL_TOP_K_K16.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E02-CONVENTIONAL_TOP_K_K2.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E02-CONVENTIONAL_TOP_K_K32.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E02-CONVENTIONAL_TOP_K_K4.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E02-CONVENTIONAL_TOP_K_K64.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E02-CONVENTIONAL_TOP_K_K8.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E02-COSINE_THRESHOLD_ROUTING.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E02-DETERMINISTIC_KEYWORD_ROUTING_BASELINE.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E02-EUCLIDEAN_THRESHOLD_ROUTING.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E02-EXHAUSTIVE_ORACLE_EVALUATION.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E02-LEXICAL_OVERLAP_ROUTING.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  },
+  "prediction-freeze/router/E02-SIGNED_DOT_THRESHOLD_ROUTING.npy": {
+    "data_offset": 128,
+    "descr": "|b1",
+    "fortran_order": false,
+    "shape": [
+      322560
+    ]
+  }
+}

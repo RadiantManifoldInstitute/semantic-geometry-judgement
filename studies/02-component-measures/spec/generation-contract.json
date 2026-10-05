@@ -1,0 +1,110 @@
+{
+  "bootstrap": {
+    "hard_gate_use": false,
+    "replicates": 10000,
+    "seed": 41384009
+  },
+  "calibration": {
+    "opposition_false_alarm_budget": 0.1,
+    "threshold_tie_order": [
+      "MAX_OPPOSITION_RECALL",
+      "MIN_FALSE_ALARM_RATE",
+      "MOST_CONSERVATIVE_THRESHOLD",
+      "NUMERIC_ASCENDING"
+    ]
+  },
+  "construction_controls": {
+    "geometry_or_model_access": false,
+    "gold_axes_source": "DECLARATIVE_PAIR_IR_ONLY",
+    "human_or_external_oracle_access": false,
+    "predecessor_outcome_access": false,
+    "score_exposure_before_family_construction": false
+  },
+  "counts": {
+    "blinded_records": 2808,
+    "calibration_gold_records": 936,
+    "calibration_join_records": 936,
+    "canonical_pairs": 936,
+    "contexts": 72,
+    "rendered_surfaces": 2808,
+    "sealed_gold_records": 1872,
+    "sealed_join_records": 1872
+  },
+  "family_counts": {
+    "calibration": 4,
+    "sealed": 8,
+    "total": 12
+  },
+  "mission_levels": [
+    "L1_CONCRETE",
+    "L2_OPERATIONAL",
+    "L3_PURPOSE"
+  ],
+  "panels": {
+    "DIRECTION": {
+      "polarities": [
+        "ALIGNED",
+        "OPPOSED"
+      ],
+      "rows_per_context_before_surfaces": 2
+    },
+    "MAGNITUDE": {
+      "levels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "polarities": [
+        "ALIGNED",
+        "OPPOSED"
+      ],
+      "rows_per_context_before_surfaces": 8
+    },
+    "PROXIMITY": {
+      "classes": [
+        "APPLICABLE",
+        "ADJACENT",
+        "WRONG_MISSION"
+      ],
+      "rows_per_context_before_surfaces": 3
+    }
+  },
+  "pareto": {
+    "material_degradation": 0.03,
+    "material_improvement": 0.05,
+    "minimum_supporting_families": 6,
+    "per_family_degradation_kill": 0.1
+  },
+  "record_integrity": {
+    "encoding": "UTF-8",
+    "key_order": "lexicographic UTF-8 bytes",
+    "omit_only_self_field": true,
+    "self_field": "payload_sha256",
+    "terminator": "LF",
+    "unicode": "NFC",
+    "whitespace": "none"
+  },
+  "record_order": [
+    "family_id",
+    "scenario_id",
+    "level",
+    "panel",
+    "group_id",
+    "pair_id",
+    "surface_id"
+  ],
+  "review_budget": {
+    "proximity_candidates": 3,
+    "reviewed": 1
+  },
+  "scenarios_per_family": 2,
+  "schema_version": "K_F1D_GENERATION_CONTRACT_V0_1",
+  "seed": 41384001,
+  "study": "SYSTEM-K-K-F1D",
+  "surface_classes": [
+    "CANONICAL",
+    "BOUNDED_PARAPHRASE",
+    "CLAUSE_ORDER"
+  ]
+}

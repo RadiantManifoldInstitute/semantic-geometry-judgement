@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Cite the paper and identify the exact companion manifest used."
+type: software
+version: "0.1.0"
+title: "Can Semantic Geometry Teach an AI Judgement?"
+authors:
+  - family-names: "Nguy"
+    given-names: "Thomson D."
+abstract: "Scientific source and saved-output companion; replication coverage remains incomplete."
+keywords:
+  - semantic geometry
+  - policy interpretation
+  - scientific companion

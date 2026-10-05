@@ -1,0 +1,13 @@
+{
+  "blinded_rows": 2808,
+  "blinded_sha256": "82675386e4a65e0d349f3579e2e1f6806ef33827921adfa7a4ca570931d5585d",
+  "dual_constructor_agreement": "PASS",
+  "record_hashes": {
+    "calibration-gold.jsonl": "42d487ca2f54ad799ef2d6560addeb9230efe5c4bbbe8af08cbd63b419ad598e",
+    "calibration-join.jsonl": "25db066b87d34c38f29f1ed0115232836afdd78bd9340107ac8bc8b70753da09",
+    "canonical-gold.jsonl": "b549fa5b69eea5e3be831e4ea58c1a7c696e6595526ee1c9b90384ee5d1d0558",
+    "sealed-gold.jsonl": "c71b7c0539d90b8562943e4e4a015c3031438d5b88994a7ef87ea5c59419259f",
+    "sealed-join.jsonl": "34c51fce53de36d65e27f960fd41a5a2c0cde27315a3434403222c9047534969",
+    "surface-inheritance-proof.jsonl": "746b48f8238979b9062ce75e3c08c3dea39a6abff7f471fd9e520f9c8bbafc8d"
+  }
+}

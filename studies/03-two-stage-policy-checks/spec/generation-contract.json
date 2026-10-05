@@ -1,0 +1,103 @@
+{
+  "abstraction_layers": [
+    "L1_CONCRETE",
+    "L2_OPERATIONAL",
+    "L3_PURPOSE"
+  ],
+  "arm_order": [
+    "SERIAL_EUCLIDEAN_THEN_COSINE",
+    "COSINE_ONLY",
+    "EUCLIDEAN_ONLY",
+    "REVERSED_COSINE_THEN_EUCLIDEAN",
+    "CONVENTIONAL_TOP_K_RETRIEVAL",
+    "DETERMINISTIC_KEYWORD_OR_RULE_ROUTING_BASELINE",
+    "FROZEN_FULL_RDVI_PROFILE",
+    "EXHAUSTIVE_POLICY_EVALUATION_ORACLE"
+  ],
+  "calibration": {
+    "candidate_budgets": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "direction_margin_candidates": [
+      0.0,
+      0.01,
+      0.02,
+      0.05,
+      0.1
+    ],
+    "target_blocking_miss_rate": 0.0,
+    "target_false_act_rate": 0.0,
+    "target_governing_recall": 0.95,
+    "threshold_tie_order": [
+      "MEET_SAFETY",
+      "MIN_POLICY_BUDGET",
+      "MAX_DISPOSITION_ACCURACY",
+      "MAX_GOVERNING_RECALL",
+      "MIN_THRESHOLD",
+      "MIN_MARGIN"
+    ]
+  },
+  "cardinality_strata": [
+    "ZERO",
+    "ONE",
+    "MULTIPLE_COMPATIBLE",
+    "MULTIPLE_CONFLICTING"
+  ],
+  "counts": {
+    "actions": 1296,
+    "calibration_actions": 432,
+    "calibration_pairs": 3456,
+    "pairs": 10368,
+    "sealed_actions": 864,
+    "sealed_pairs": 6912
+  },
+  "family_counts": {
+    "calibration": 4,
+    "sealed": 8,
+    "total": 12
+  },
+  "isolation": {
+    "model_or_geometry_access_during_generation": false,
+    "oracle": "PAIRED_DETERMINISTIC_EXECUTABLE_POLICIES",
+    "oracle_open_after": "DURABLE_PER_ENCODER_THRESHOLD_FREEZE",
+    "predecessor_outcome_access_during_generation": false,
+    "semantic_input": "NATURAL_LANGUAGE_ONLY"
+  },
+  "policies_per_family": 8,
+  "record_integrity": {
+    "encoding": "UTF-8",
+    "key_order": "lexicographic UTF-8 bytes",
+    "omit_only_self_field": true,
+    "self_field": "payload_sha256",
+    "terminator": "LF",
+    "unicode": "NFC",
+    "whitespace": "none"
+  },
+  "schema_version": "K_F1E_GENERATION_CONTRACT_V0_1",
+  "seed": 41385001,
+  "study": "SYSTEM-K-K-F1E",
+  "success_profile": {
+    "blocking_policy_miss_rate_max": 0.0,
+    "conflict_escalation_recall_min": 0.95,
+    "disposition_accuracy_min": 0.95,
+    "false_act_rate_max": 0.0,
+    "governing_policy_recall_min": 0.95,
+    "minimum_supporting_sealed_families": 7,
+    "perturbation_recall_min": 0.9,
+    "policy_reduction_min": 0.5
+  },
+  "surface_classes": [
+    "CANONICAL",
+    "BOUNDED_PARAPHRASE",
+    "EXPLICIT_NEGATION",
+    "TOPICAL_OPPOSITION",
+    "WRONG_MISSION_DECOY",
+    "LEXICALLY_SIMILAR_NONGOVERNING",
+    "UNUSUAL_MISSION_SERVING",
+    "CLAUSE_ORDER",
+    "HARMLESS_WORDING"
+  ]
+}

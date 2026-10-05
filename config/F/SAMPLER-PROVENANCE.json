@@ -1,0 +1,15 @@
+{
+  "ordinal_rule": "prediction arrays index original blinded-scoring-input order; use exact blind_pair_id join, not row_id sorting",
+  "required_blinded_sha256": "545deb21eaa0a9ed707d230693bbef7a86be48199e61bd6971ed77995b88f20e",
+  "required_record_hashes": {
+    "sealed-gold.jsonl": "0b4db9f3e3f0f3d3ed43c7a34a8adc15c63ed44a3252c28b0d414fbcfb0758cb",
+    "sealed-join.jsonl": "15eba762d1868f6e1d6850d2b9d3a29e72e393eaf86a74b84a4344ae0e4036a0",
+    "validation-gold.jsonl": "148db30a5832a2ee18aad0c496ab892bf7aa898b8ab9292a408d23a2f0c0e8b8",
+    "validation-join.jsonl": "9880d1dddd830a37ddbdb095de3e4b08e6d47035f2e8c153c979161d047b534f"
+  },
+  "sealed_sample_rows": 3840,
+  "seed": 80412026,
+  "selection": "all governing BASE pairs; first ten non-governing BASE pairs per family by SHA256(seed|row_id), then include all perturbations for selected base_action_id/policy_id",
+  "selector": "unchanged kf1f.analysis.relation_sample_mask",
+  "status": "F keyed ordinal/truth/family join not materialized; full generator held on laptop"
+}

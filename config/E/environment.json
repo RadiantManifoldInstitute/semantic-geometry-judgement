@@ -1,0 +1,38 @@
+{
+  "dependency_binding": "D/E/F environment receipt does not identify active numpy/scipy or transitive distribution versions",
+  "environment": {
+    "HF_HUB_OFFLINE": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PYTHONHASHSEED": "0",
+    "TOKENIZERS_PARALLELISM": "false",
+    "TRANSFORMERS_OFFLINE": "1",
+    "TZ": "UTC"
+  },
+  "image_digest": "2a8c30464206893f73d5c1a47f52348ee27a4c376823673375978814e751c94f",
+  "machine": "x86_64",
+  "platform": "Linux-6.1.182-x86_64-with-glibc2.36",
+  "python": "3.12.11 (main, Sep 30 2025, 00:40:22) [GCC 12.2.0]",
+  "replica": "replica-a",
+  "runtime_schema_hashes": {
+    "latency-record.schema.json": "be3add33ed729f5210d13bfa8201aeba25e342bd4d4a6c5a7cba6f5609005762",
+    "prejoin-manifest.schema.json": "2a151e90510ade57fff994a08b6ac156bc166e5442ed04756157bbdc8ef97e60",
+    "replica-reconciliation.schema.json": "2c434844ab888b3d3f165bb46a53629d77588948c6a6081376f4c6b4b72d6aad",
+    "replica-terminal.schema.json": "30ab6ef948bbc7c4c71b1f5c971cfda1b34e4d4cc7962f295e39d45be24c9dbe",
+    "scientific-result.schema.json": "36836316dcde86c224f7741ebc3aa0ba1640a5d4db57a8fa03d87a14e5e1182f"
+  },
+  "runtime_source_hashes": {
+    "__init__.py": "ebe5c11608d291f0905d36c6ab36571f1d048f0d62c695343649c4dc56cede1f",
+    "analysis.py": "d7c9e347a6556c8a0b1c591cfda1e3e4c7d92122515773c454d377f8677953e2",
+    "canonical.py": "b5f3b2d1cfd30fa52eeec2c2b5be47b8645e7e0c51d7cd90ab19420d4819257f",
+    "custody.py": "ace01c1a34a704b045824bc79d7ca0c103132d28826136c6fd9b355e8093ec12",
+    "executor.py": "1e85add381ef86df174bf79332106f078fb7075c9c66230a72764b162f8196d0",
+    "latency.py": "11a35ee9913013f79e153f46909c9561b65b25e8e274bb92309edbb1d8cb849b",
+    "model_runtime.py": "f61d93c0ceca42762b1bd1c3533ebd82fc22bc2f98e2debdd53e01fea30c5537",
+    "reconcile.py": "65e9af04d12f75e35b623d5567ab0318779715a612afd8b4e684e39083cdfe10",
+    "representations.py": "0c9742e4065389eef49db461a8c8ed089439d1f1322fc114c33a21af80285d02"
+  },
+  "source_manifest_sha256": "ddf7391d76cb8b35a31fb9b5a7ed3a21eb9b51ee3756c68f762d29a00ddf2e83"
+}

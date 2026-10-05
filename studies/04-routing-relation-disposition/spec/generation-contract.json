@@ -1,0 +1,168 @@
+{
+  "abstraction_layers": [
+    "CONCRETE_RULE",
+    "OPERATIONAL_OBJECTIVE",
+    "HIGHER_PURPOSE"
+  ],
+  "base_actions_per_family": 24,
+  "base_per_family": {
+    "action_dispositions": {
+      "ACT": 7,
+      "ESCALATE": 9,
+      "HOLD": 8
+    },
+    "cardinality_actions": {
+      "MULTIPLE_COMPATIBLE": 6,
+      "MULTIPLE_CONFLICTING": 6,
+      "ONE": 6,
+      "ZERO": 6
+    },
+    "governing_pairs_by_cardinality": {
+      "MULTIPLE_COMPATIBLE": 12,
+      "MULTIPLE_CONFLICTING": 12,
+      "ONE": 6,
+      "ZERO": 0
+    },
+    "governing_pairs_total": 30,
+    "governing_relation_pairs": {
+      "ALIGNED": 12,
+      "AMBIGUOUS": 8,
+      "OPPOSED": 10
+    },
+    "non_governing_pairs_total": 1314
+  },
+  "base_policy_pairs_per_family": 1344,
+  "cardinality_strata": [
+    "ZERO",
+    "ONE",
+    "MULTIPLE_COMPATIBLE",
+    "MULTIPLE_CONFLICTING"
+  ],
+  "counts": {
+    "actions": 5760,
+    "base_actions": 720,
+    "base_pairs": 40320,
+    "calibration_actions": 2304,
+    "calibration_pairs": 129024,
+    "pairs": 322560,
+    "sealed_actions": 2304,
+    "sealed_pairs": 129024,
+    "validation_actions": 1152,
+    "validation_pairs": 64512
+  },
+  "disposition_labels": [
+    "ACT",
+    "HOLD",
+    "ESCALATE"
+  ],
+  "experiment_b": {
+    "all_surface_rows_per_family": 320,
+    "base_rows_per_family": 40,
+    "negative_rows_per_family": 10
+  },
+  "family_counts": {
+    "calibration": 12,
+    "sealed": 12,
+    "total": 30,
+    "validation": 6
+  },
+  "inference": {
+    "alpha": 0.05,
+    "bootstrap_replicates": 2000,
+    "sign_flip_permutations": 4096
+  },
+  "isolation": {
+    "model_or_geometry_access_during_generation": false,
+    "oracle_open_after": "DURABLE_PREJOIN_MEASUREMENT_SEAL",
+    "sealed_oracle_open_after": "DURABLE_SEALED_PREDICTION_SEAL",
+    "semantic_input": "NATURAL_LANGUAGE_ONLY"
+  },
+  "perturbation_kinds": [
+    "BOUNDED_PARAPHRASE",
+    "EXPLICIT_NEGATION",
+    "LEXICAL_DECOY",
+    "WRONG_MISSION_DECOY",
+    "CLAUSE_ORDER",
+    "HARMLESS_WORDING",
+    "UNUSUAL_MISSION_SERVING_ACTION"
+  ],
+  "policy_set_sizes": {
+    "LARGE": 128,
+    "MEDIUM": 32,
+    "SMALL": 8
+  },
+  "record_integrity": {
+    "encoding": "UTF-8",
+    "key_order": "lexicographic",
+    "self_field": "payload_sha256",
+    "terminator": "LF",
+    "unicode": "NFC",
+    "whitespace": "none"
+  },
+  "relation_labels": [
+    "ALIGNED",
+    "OPPOSED",
+    "AMBIGUOUS",
+    "NON_GOVERNING"
+  ],
+  "relation_model": {
+    "abstain_threshold": 0.7,
+    "candidate_C": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "class": "deterministic_full_batch_multinomial_logistic_regression",
+    "gradient_tolerance": 1e-09,
+    "iterations": 2500,
+    "learning_rate": 0.05
+  },
+  "router": {
+    "cosine_grid": [
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9
+    ],
+    "euclidean_quantiles": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "lexical_grid": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "signed_dot_quantiles": [
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9
+    ],
+    "target_blocking_miss_rate": 0.01,
+    "target_governing_recall": 0.98,
+    "top_k_grid": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ]
+  },
+  "schema_version": "K_F1F_GENERATION_CONTRACT_V0_1",
+  "seeds": {
+    "action": 17021,
+    "bootstrap": 17023,
+    "corpus": 80412026,
+    "perturbation": 17022
+  },
+  "study": "SYSTEM-K-K-F1F"
+}

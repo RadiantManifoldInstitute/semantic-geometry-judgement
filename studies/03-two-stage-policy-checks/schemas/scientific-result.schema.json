@@ -1,0 +1,19 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "type":"object",
+  "required":["schema_version","study","replica","scientific_result","complete_census","per_encoder","terminal_classification","threshold_freeze_receipt"],
+  "properties":{
+    "schema_version":{"const":"K_F1E_SCIENTIFIC_RESULT_V0_1"},
+    "study":{"const":"SYSTEM-K-K-F1E"},
+    "replica":{"enum":["replica-a","replica-b"]},
+    "scientific_result":{"type":"boolean"},
+    "complete_census":{
+      "type":"object","additionalProperties":false,
+      "required":["blinded_pairs","actions","calibration_pairs","sealed_pairs","encoders","arms"],
+      "properties":{"blinded_pairs":{"const":10368},"actions":{"const":1296},"calibration_pairs":{"const":3456},"sealed_pairs":{"const":6912},"encoders":{"const":3},"arms":{"const":8}}
+    },
+    "per_encoder":{"type":"object","required":["E01","E02","E03"],"properties":{"E01":{"type":"object"},"E02":{"type":"object"},"E03":{"type":"object"}}},
+    "terminal_classification":{"type":"object"},
+    "threshold_freeze_receipt":{"type":"object"}
+  }
+}

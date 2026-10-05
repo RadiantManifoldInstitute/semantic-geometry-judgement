@@ -1,0 +1,280 @@
+{
+  "arms": {
+    "ALL_THREE": [
+      "COSINE",
+      "EUCLIDEAN",
+      "DOT"
+    ],
+    "COSINE_ONLY": [
+      "COSINE"
+    ],
+    "COSINE_PLUS_DOT": [
+      "COSINE",
+      "DOT"
+    ],
+    "COSINE_PLUS_EUCLIDEAN": [
+      "COSINE",
+      "EUCLIDEAN"
+    ],
+    "DOT_ONLY": [
+      "DOT"
+    ],
+    "EUCLIDEAN_ONLY": [
+      "EUCLIDEAN"
+    ],
+    "EUCLIDEAN_PLUS_DOT": [
+      "EUCLIDEAN",
+      "DOT"
+    ],
+    "commission_alias": {
+      "COSINE_PLUS_EUCLIDEAN_PLUS_DOT": "ALL_THREE"
+    }
+  },
+  "dispositions": {
+    "allowed": [
+      "WORKABLE",
+      "NARROW",
+      "NULL",
+      "MISLEADING",
+      "INVALID"
+    ],
+    "cross_encoder": {
+      "INVALID": "any_required_structural_or_custody_invariant_fails",
+      "MISLEADING": "at_least_2_MISLEADING",
+      "NARROW": "any_WORKABLE_or_NARROW_not_meeting_WORKABLE",
+      "NULL": "otherwise",
+      "WORKABLE": "at_least_2_WORKABLE_and_none_MISLEADING"
+    },
+    "direction": {
+      "MISLEADING": "ordering<=0.40 OR false_alarm>=0.50",
+      "WORKABLE": "ordering>=0.65 AND opposition_recall>=0.60 AND false_alarm<=0.15 AND at_least_6_families>=0.60"
+    },
+    "magnitude": {
+      "MISLEADING": "mean_spearman<=-0.25 OR reversal_rate>=0.50",
+      "WORKABLE": "mean_spearman>=0.50 AND adjacent_accuracy>=0.60 AND reversal_rate<=0.20 AND at_least_6_families>=0.30"
+    },
+    "proximity": {
+      "MISLEADING": "recall<=0.40",
+      "WORKABLE": "recall>=0.65 AND wrong_mission_top<=0.20 AND at_least_6_families>=0.60"
+    },
+    "single_aggregate_scientific_verdict": null
+  },
+  "frozen_corpus": {
+    "blinded_rows": 2808,
+    "calibration_rows": 936,
+    "canonical_pairs": 936,
+    "contexts": 72,
+    "dual_reproduction": {
+      "agreement": "EXACT_BYTES",
+      "path_a": "Python",
+      "path_b": "Ruby"
+    },
+    "expansion_exclusion_or_substitution_after_freeze": "prohibited",
+    "families": {
+      "calibration": 4,
+      "sealed": 8,
+      "total": 12
+    },
+    "family_blueprint_sha256": "c3f706fa18a73c117a7c7817ee22cdf50529e75445ae5e42c5d0fbd09ea6584e",
+    "frozen_hashes": {
+      "blinded_scoring_input": "82675386e4a65e0d349f3579e2e1f6806ef33827921adfa7a4ca570931d5585d",
+      "calibration_gold": "42d487ca2f54ad799ef2d6560addeb9230efe5c4bbbe8af08cbd63b419ad598e",
+      "calibration_join": "25db066b87d34c38f29f1ed0115232836afdd78bd9340107ac8bc8b70753da09",
+      "canonical_gold": "b549fa5b69eea5e3be831e4ea58c1a7c696e6595526ee1c9b90384ee5d1d0558",
+      "sealed_gold": "c71b7c0539d90b8562943e4e4a015c3031438d5b88994a7ef87ea5c59419259f",
+      "sealed_join": "34c51fce53de36d65e27f960fd41a5a2c0cde27315a3434403222c9047534969",
+      "surface_inheritance_proof": "746b48f8238979b9062ce75e3c08c3dea39a6abff7f471fd9e520f9c8bbafc8d"
+    },
+    "generation_contract_sha256": "40fa780d29abf62fbe02285b61cb4d7d57e26841bc27befd7d388f60789e905f",
+    "levels": [
+      "L1_CONCRETE",
+      "L2_OPERATIONAL",
+      "L3_PURPOSE"
+    ],
+    "scenarios_per_family": 2,
+    "sealed_rows": 1872,
+    "source_kind": "RIMS_AUTHORED_NONPERSONAL_SYNTHETIC_TEXT",
+    "surfaces": [
+      "CANONICAL",
+      "BOUNDED_PARAPHRASE",
+      "CLAUSE_ORDER"
+    ]
+  },
+  "frozen_encoders": {
+    "E01": {
+      "identity": "sentence-transformers/all-mpnet-base-v2",
+      "pooling": "attention_masked_mean",
+      "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130"
+    },
+    "E02": {
+      "identity": "intfloat/e5-base-v2",
+      "pooling": "attention_masked_mean",
+      "prefixes": {
+        "action": "query: ",
+        "reference": "passage: "
+      },
+      "revision": "f52bf8ec8c7124536f0efb74aca902b2995e5bcd"
+    },
+    "E03": {
+      "action_prefix": "Represent this sentence for searching relevant passages: ",
+      "identity": "BAAI/bge-base-en-v1.5",
+      "pooling": "first_token_cls",
+      "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a"
+    },
+    "maximum_tokens": 512,
+    "precision": "float32",
+    "replacement_after_freeze": "prohibited"
+  },
+  "frozen_representations": {
+    "COSINE": {
+      "formula": "dot(a,r)/(norm(a)*norm(r))",
+      "higher_is_aligned": true,
+      "intended_construct": "direction_alignment_or_opposition"
+    },
+    "DOT": {
+      "formula": "dot(a,r)",
+      "intended_construct": "signed_magnitude_weighted_alignment_or_opposition"
+    },
+    "EUCLIDEAN": {
+      "formula": "norm(a-r)",
+      "intended_construct": "raw_embedding_space_proximity",
+      "lower_is_closer": true,
+      "normalized_distance_is_independent_arm": false
+    },
+    "NORMALIZED_EUCLIDEAN_CONTROL": {
+      "claim_bearing_arm": false,
+      "exact_identity": "sqrt(2-2*cosine)",
+      "formula": "norm(a/norm(a)-r/norm(r))",
+      "maximum_identity_residual": 1e-10
+    },
+    "invalid": "any nonfinite component or any zero-norm vector"
+  },
+  "maximum_claim": {
+    "ceiling": "EXACT_FROZEN_SYNTHETIC_WORLD_THREE_ENCODERS_ONLY",
+    "prohibited": [
+      "real_world_mission_correctness",
+      "autonomous_compliance_or_action_adjudication",
+      "encoder_independent_universal_geometry",
+      "superiority_from_one_aggregate_score",
+      "favorable_generalization_from_synthetic_integration_outputs"
+    ],
+    "question": "On the exact frozen synthetic action-reference world and three exact inherited encoders, do cosine direction, raw Euclidean proximity, and signed raw-dot magnitude each behave as intended, and does retaining their separate outputs Pareto-improve the measurement profile over any isolated or pairwise arm?"
+  },
+  "panel_measure_priority": {
+    "DIRECTION": [
+      "COSINE",
+      "DOT",
+      "EUCLIDEAN"
+    ],
+    "MAGNITUDE": [
+      "DOT",
+      "EUCLIDEAN",
+      "COSINE"
+    ],
+    "PROXIMITY": [
+      "EUCLIDEAN",
+      "COSINE",
+      "DOT"
+    ]
+  },
+  "panels": {
+    "DIRECTION": {
+      "direct_outcomes": [
+        "pair_ordering_accuracy",
+        "opposition_recall",
+        "aligned_false_alarm_rate",
+        "median_margin"
+      ],
+      "labels": [
+        "ALIGNED",
+        "OPPOSED"
+      ],
+      "per_context_rows": 2
+    },
+    "MAGNITUDE": {
+      "consequence_levels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "direct_outcomes": [
+        "mean_spearman",
+        "adjacent_ordering_accuracy",
+        "adjacent_reversal_rate"
+      ],
+      "directions": [
+        "ALIGNED",
+        "OPPOSED"
+      ],
+      "per_direction_rows": 4
+    },
+    "PROXIMITY": {
+      "direct_outcomes": [
+        "applicability_recall",
+        "wrong_mission_top_rate",
+        "median_margin"
+      ],
+      "fixed_review_budget": "1_of_3",
+      "labels": [
+        "APPLICABLE",
+        "ADJACENT",
+        "WRONG_MISSION"
+      ],
+      "per_context_rows": 3
+    }
+  },
+  "pareto_rule": {
+    "coordinate_material_improvement_minimum": 0.05,
+    "coordinates": [
+      "applicability_recall",
+      "opposition_recall",
+      "aligned_false_alarm_improvement",
+      "magnitude_spearman"
+    ],
+    "full_profile_wins_only_if_it_dominates_every_other_arm": true,
+    "maximum_coordinate_degradation": 0.03,
+    "maximum_per_family_degradation": 0.1,
+    "minimum_supporting_sealed_families": 6
+  },
+  "projection_kind": "SCIENTIFIC_PROTOCOL_NOT_OPERATIONAL_RECEIPT",
+  "source_protocol_sha256": "ce00a0e5105e4621655af8c6c4e6c835e07deeb7a8f69309910ba6704b4d0444",
+  "study": "SYSTEM-K-K-F1D",
+  "threshold_freeze": {
+    "deterministic_ties": "minimum false alarm then conservative numeric threshold",
+    "false_alarm_budget": 0.1,
+    "no_feasible_candidate_fallback": "maximize recall then minimize false alarm",
+    "selection": "maximize opposition recall subject to aligned false alarm at most 0.10",
+    "source": "CALIBRATION_DIRECTION_ROWS_ONLY"
+  },
+  "title": "Decomposed RDVI Measurement and Combination Study",
+  "uncertainty_and_reporting": {
+    "descriptive_bootstrap": {
+      "claim_gate": false,
+      "replicates": 10000,
+      "seed": 41384009
+    },
+    "multiplicity": "no_null_hypothesis_p_value_family",
+    "nuisance_diagnostics": [
+      "action_norm",
+      "reference_norm",
+      "norm_product",
+      "text_length",
+      "surface_stability",
+      "encoder_raw_scale"
+    ],
+    "report_every": [
+      "family",
+      "mission_level",
+      "surface",
+      "encoder",
+      "arm",
+      "direct_outcome",
+      "threshold_curve",
+      "reversal",
+      "control_failure"
+    ],
+    "sealed_family_count": 8,
+    "unit": "family"
+  }
+}

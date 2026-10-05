@@ -1,0 +1,23 @@
+Copyright (c) 2026 InflectAI, Inc.
+
+The MIT copyright license covers original InflectAI contributions only,
+including code, documentation, schemas and synthetic dataset contributions,
+to the extent InflectAI holds copyright or other licensable rights in them.
+Facts and wholly machine-generated expression are not represented as newly
+owned by inclusion here. The license extends only to those rights held by
+InflectAI; it does not relicense third-party material.
+
+The Seldon Reflex Foundation (SRF) owns the assigned System K patents and
+patent applications. SRF's System K patent rights are reserved. No license
+or grant of SRF patent rights is made or implied on SRF's behalf by this
+companion or its copyright license. No H-family patent covenant applies.
+
+Third-party models, model weights, runtime packages and dependency packages
+are not bundled and are not relicensed. Their upstream terms govern their
+acquisition and use. Identifying an upstream dependency is not permission
+to redistribute it. No held successor graph implementation is included.
+
+Exact configured model identities/revisions, publisher metadata and applicable
+upstream dependency license pointers are listed in THIRD-PARTY-REFERENCES.md.
+Current upstream terms pointers do not attest the terms of an original
+installed artifact or a resolved runtime. No model or package is bundled.

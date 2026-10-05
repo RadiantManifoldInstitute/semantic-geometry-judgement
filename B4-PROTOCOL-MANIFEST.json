@@ -1,0 +1,25 @@
+{
+  "files": [
+    {
+      "bytes": 2996,
+      "path": "reproduction/protocols/C.json",
+      "sha256": "61af47feb95ceca388b89dd73ad7e4b5375c49ce67d704e23eec2296f7e5a18b"
+    },
+    {
+      "bytes": 8353,
+      "path": "reproduction/protocols/D.json",
+      "sha256": "3178580413707c7033740feb4c92ae15a184c3b277d01fe5292bb13ffc9bbe67"
+    },
+    {
+      "bytes": 8092,
+      "path": "reproduction/protocols/E.json",
+      "sha256": "11678571b68213379cc933e455b9111ffc238cf68744ef5e18fd254cc7edf956"
+    },
+    {
+      "bytes": 8241,
+      "path": "reproduction/protocols/F.json",
+      "sha256": "eb53a3fe3d9899188b71fbd5fcbf6755eed66954ca977637026d5baaf7b8f586"
+    }
+  ],
+  "schema": "b4-scientific-protocol-supplement-v0.1"
+}

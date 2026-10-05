@@ -1,0 +1,599 @@
+{
+  "claims": [
+    {
+      "claim": "Exact census; units remain study-specific",
+      "json_pointer": "/complete_census",
+      "paper_location": "Section 2",
+      "result_file": "results/C/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1C",
+      "value_sha256": "1d718790dec9aa5d62d70a32f741cca7094226390fa5b9d1e7b28456ac0ee963"
+    },
+    {
+      "claim": "Complete reported terminal including adverse outcomes",
+      "json_pointer": "/terminal_classification",
+      "paper_location": "Section 2; Figure 6",
+      "result_file": "results/C/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1C",
+      "value_sha256": "541a53673c3c476f7730252754e167549fff83495e9f3f006e22d50acbe7503f"
+    },
+    {
+      "claim": "Construction denominators and scientific input checksums",
+      "json_pointer": "/construction_receipt",
+      "paper_location": "Methods; Appendix A",
+      "result_file": "results/C/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1C",
+      "value_sha256": "feae107171fb16603b133d83592c248f1a828cb9844825c9156ce743015a7d74"
+    },
+    {
+      "claim": "Exact census; units remain study-specific",
+      "json_pointer": "/complete_census",
+      "paper_location": "Section 2",
+      "result_file": "results/D/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1D",
+      "value_sha256": "59ee430f264239b56b71d3de21858f3a5d9057a3b4657559a483d63c8b3a4575"
+    },
+    {
+      "claim": "Complete reported terminal including adverse outcomes",
+      "json_pointer": "/terminal_classification",
+      "paper_location": "Section 2; Figure 6",
+      "result_file": "results/D/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1D",
+      "value_sha256": "b74db290960f1ef1329730992e3a17cea240649a45885260b1136541b6055606"
+    },
+    {
+      "claim": "Construction denominators and scientific input checksums",
+      "json_pointer": "/construction_receipt",
+      "paper_location": "Methods; Appendix A",
+      "result_file": "results/D/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1D",
+      "value_sha256": "f74f6746a0f775fc0d1907e9ca3c8688509df5d5aa146fbf88df5fe6cca921fb"
+    },
+    {
+      "claim": "Exact census; units remain study-specific",
+      "json_pointer": "/complete_census",
+      "paper_location": "Section 2",
+      "result_file": "results/E/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1E",
+      "value_sha256": "66b9793401bb6a039438488dd44451589c6a7fd9a110cda81ce6d911a424afd7"
+    },
+    {
+      "claim": "Complete reported terminal including adverse outcomes",
+      "json_pointer": "/terminal_classification",
+      "paper_location": "Section 2; Figure 6",
+      "result_file": "results/E/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1E",
+      "value_sha256": "e3cd9108de795615fd23ef8e6eb0980c049f76bce65144c7697e41594682a10f"
+    },
+    {
+      "claim": "Construction denominators and scientific input checksums",
+      "json_pointer": "/construction_receipt",
+      "paper_location": "Methods; Appendix A",
+      "result_file": "results/E/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1E",
+      "value_sha256": "7bdc9de39a26b5e04711d6f01cccad530fd8c100f8fcb6a4d1acc0d64b425c89"
+    },
+    {
+      "claim": "Exact census; units remain study-specific",
+      "json_pointer": "/complete_census",
+      "paper_location": "Section 2",
+      "result_file": "results/F/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1F",
+      "value_sha256": "f4c8ead07497a328d6658fa143f6f34300d331b027250786832cbdef2f91d5ff"
+    },
+    {
+      "claim": "Complete reported terminal including adverse outcomes",
+      "json_pointer": "/terminal_classification",
+      "paper_location": "Section 2; Figure 6",
+      "result_file": "results/F/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1F",
+      "value_sha256": "dc15db82b169bbfd9e0f167306443b30870cfd83f56f07c6b4e2dc4dffa5083f"
+    },
+    {
+      "claim": "Construction denominators and scientific input checksums",
+      "json_pointer": "/construction_receipt",
+      "paper_location": "Methods; Appendix A",
+      "result_file": "results/F/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1F",
+      "value_sha256": "7f13bd49b1f39f03bc256c58d4279c80d4543cc0abdefc0dc99165575e9b6fc4"
+    },
+    {
+      "claim": "Encoder-specific primary gain; not a cross-encoder mean",
+      "json_pointer": "/per_encoder/E01/E1/summary/equal_weight_mean",
+      "paper_location": "Section 2 Study 1",
+      "result_file": "results/C/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": "0.010416666667",
+      "study": "SYSTEM-K-K-F1C",
+      "value_sha256": "950f85c87d6f6a75b7734e6f7d3d73326cb1e442a14b1b6bc1e70505ee566af9"
+    },
+    {
+      "claim": "Primary gate failure and all prespecified clauses",
+      "json_pointer": "/per_encoder/E01/E1",
+      "paper_location": "Section 2 Study 1",
+      "result_file": "results/C/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1C",
+      "value_sha256": "de3f15f3aecb1c28b0bde67cf2e96ace4e889d9f81c531fb683492d70792147a"
+    },
+    {
+      "claim": "Saved surface rows and per-arm predictions",
+      "json_pointer": "/per_encoder/E01/row_outputs",
+      "paper_location": "Study 1 output coverage",
+      "result_file": "results/C/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1C",
+      "value_sha256": "58e40ac5ca5d9219be4963905aa98c615f8f13ac9bef003e6a475c57fd4a7e1e"
+    },
+    {
+      "claim": "Encoder-specific primary gain; not a cross-encoder mean",
+      "json_pointer": "/per_encoder/E02/E1/summary/equal_weight_mean",
+      "paper_location": "Section 2 Study 1",
+      "result_file": "results/C/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": "0.062500000000",
+      "study": "SYSTEM-K-K-F1C",
+      "value_sha256": "fecf882a396d8f8373a80fd2a5cfd248227eb654d27756f7c543ccca72c13b34"
+    },
+    {
+      "claim": "Primary gate failure and all prespecified clauses",
+      "json_pointer": "/per_encoder/E02/E1",
+      "paper_location": "Section 2 Study 1",
+      "result_file": "results/C/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1C",
+      "value_sha256": "b57a7803da12413776ca678020ddff7617dfc83d63fabbc83ac6085cd37b7ca3"
+    },
+    {
+      "claim": "Saved surface rows and per-arm predictions",
+      "json_pointer": "/per_encoder/E02/row_outputs",
+      "paper_location": "Study 1 output coverage",
+      "result_file": "results/C/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1C",
+      "value_sha256": "761b65057d1d67f8e368070de643a1543cfe6ef15e0bfce8c35e2dd9fe8e83b1"
+    },
+    {
+      "claim": "Encoder-specific primary gain; not a cross-encoder mean",
+      "json_pointer": "/per_encoder/E03/E1/summary/equal_weight_mean",
+      "paper_location": "Section 2 Study 1",
+      "result_file": "results/C/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": "0.020833333333",
+      "study": "SYSTEM-K-K-F1C",
+      "value_sha256": "cc140b78cebaefe6aeb424ecae1e2d2e1ad9c2c3424374f1c949fb98151dafaf"
+    },
+    {
+      "claim": "Primary gate failure and all prespecified clauses",
+      "json_pointer": "/per_encoder/E03/E1",
+      "paper_location": "Section 2 Study 1",
+      "result_file": "results/C/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1C",
+      "value_sha256": "455c41f3241e881bcec6b9c5c2a422f8d4c5fa30b38cdf49ab71ce8e52d1ab7d"
+    },
+    {
+      "claim": "Saved surface rows and per-arm predictions",
+      "json_pointer": "/per_encoder/E03/row_outputs",
+      "paper_location": "Study 1 output coverage",
+      "result_file": "results/C/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1C",
+      "value_sha256": "55591f3480b96cdcedc4dcf37d99cb2227dc95ec55d5b60cf7b1fb914132ffbb"
+    },
+    {
+      "claim": "Direct measures with encoder-specific dispositions",
+      "json_pointer": "/per_encoder/E01/direct_measure_results",
+      "paper_location": "Section 2 Study 2",
+      "result_file": "results/D/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1D",
+      "value_sha256": "5da4aeeb647aabadde3b27949ff2a7d202f945848877821d975f9a5b0e41cc19"
+    },
+    {
+      "claim": "Full-profile Pareto outcomes",
+      "json_pointer": "/per_encoder/E01/full_profile_pareto",
+      "paper_location": "Section 2 Study 2",
+      "result_file": "results/D/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1D",
+      "value_sha256": "b72b8b610b21a0b781eb7bf121ea6cdcf9ad1f36a0a4be9893fa529fe269db9c"
+    },
+    {
+      "claim": "Frozen calibration selection",
+      "json_pointer": "/per_encoder/E01/threshold_freeze",
+      "paper_location": "Study 2 methods",
+      "result_file": "results/D/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1D",
+      "value_sha256": "0d81dc333f90492712f0c849d7cffa0dde3895db5097f5e1788b781caace96df"
+    },
+    {
+      "claim": "Direct measures with encoder-specific dispositions",
+      "json_pointer": "/per_encoder/E02/direct_measure_results",
+      "paper_location": "Section 2 Study 2",
+      "result_file": "results/D/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1D",
+      "value_sha256": "18bda07cb612926f8f10d4a64a82847348b2fd47a1c6f0b0b43e7f3d9029552e"
+    },
+    {
+      "claim": "Full-profile Pareto outcomes",
+      "json_pointer": "/per_encoder/E02/full_profile_pareto",
+      "paper_location": "Section 2 Study 2",
+      "result_file": "results/D/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1D",
+      "value_sha256": "9066e875fee48cb1f67d7fc537838504a0969e55474991386d45b4231ad9bb8c"
+    },
+    {
+      "claim": "Frozen calibration selection",
+      "json_pointer": "/per_encoder/E02/threshold_freeze",
+      "paper_location": "Study 2 methods",
+      "result_file": "results/D/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1D",
+      "value_sha256": "e8e540b1f3c433b3aeaf2d0eed140b3fd4b301b99a037175756fc1f799d5dbf9"
+    },
+    {
+      "claim": "Direct measures with encoder-specific dispositions",
+      "json_pointer": "/per_encoder/E03/direct_measure_results",
+      "paper_location": "Section 2 Study 2",
+      "result_file": "results/D/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1D",
+      "value_sha256": "ab294fe07cf490d46183532b158106ae02c04ecba59b9dcdd9d5f034cd49ffdf"
+    },
+    {
+      "claim": "Full-profile Pareto outcomes",
+      "json_pointer": "/per_encoder/E03/full_profile_pareto",
+      "paper_location": "Section 2 Study 2",
+      "result_file": "results/D/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1D",
+      "value_sha256": "cecafc8e798009b07ffc653c882a9ab07438708e8b0958168082f163fb54e2f2"
+    },
+    {
+      "claim": "Frozen calibration selection",
+      "json_pointer": "/per_encoder/E03/threshold_freeze",
+      "paper_location": "Study 2 methods",
+      "result_file": "results/D/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1D",
+      "value_sha256": "f1f540d4b30d4f310c22e5a37d80a9b2476355566de7421ca51e576290d01879"
+    },
+    {
+      "claim": "Serial recall, reduction, safety and disposition accuracy",
+      "json_pointer": "/per_encoder/E01/arms/SERIAL_EUCLIDEAN_THEN_COSINE/overall",
+      "paper_location": "Section 2 Study 3",
+      "result_file": "results/E/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1E",
+      "value_sha256": "2bc4e1596a4c97ef485229920fd46c35a314ec57321c34f02e243dce82e25b58"
+    },
+    {
+      "claim": "Failed serial family support",
+      "json_pointer": "/per_encoder/E01/arms/SERIAL_EUCLIDEAN_THEN_COSINE/family_support",
+      "paper_location": "Section 2 Study 3",
+      "result_file": "results/E/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1E",
+      "value_sha256": "f4a4404071196934fdbf9e5590d8a78efc6a4a189222f3a78e642563e7a52fc9"
+    },
+    {
+      "claim": "Available sealed action case outputs",
+      "json_pointer": "/per_encoder/E01/arms/SERIAL_EUCLIDEAN_THEN_COSINE/case_outcomes",
+      "paper_location": "Section 2 Study 3",
+      "result_file": "results/E/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1E",
+      "value_sha256": "721f3deae156809fa42dac5d3ac7dc7db76d64a1f5ffc8ffadad545d9dce4c56"
+    },
+    {
+      "claim": "All eight arms, comparators and unfavorable outputs",
+      "json_pointer": "/per_encoder/E01/arms",
+      "paper_location": "Study 3 comparisons",
+      "result_file": "results/E/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1E",
+      "value_sha256": "4128524bf35c0593e3bc66fa166850bd77a6a0903ab1d9aece5ab4248bbf395d"
+    },
+    {
+      "claim": "Frozen calibration candidate curve and selection",
+      "json_pointer": "/per_encoder/E01/threshold_freeze",
+      "paper_location": "Study 3 methods",
+      "result_file": "results/E/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1E",
+      "value_sha256": "685acff3ddac6ea83c26c4f2c06ac5b7ffa1070f276b5a5546a97cb67c464d02"
+    },
+    {
+      "claim": "Serial recall, reduction, safety and disposition accuracy",
+      "json_pointer": "/per_encoder/E02/arms/SERIAL_EUCLIDEAN_THEN_COSINE/overall",
+      "paper_location": "Section 2 Study 3",
+      "result_file": "results/E/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1E",
+      "value_sha256": "74e74dece70a64603f69ccc007ab6e53eaf7f64d40fca48421b94859cc470039"
+    },
+    {
+      "claim": "Failed serial family support",
+      "json_pointer": "/per_encoder/E02/arms/SERIAL_EUCLIDEAN_THEN_COSINE/family_support",
+      "paper_location": "Section 2 Study 3",
+      "result_file": "results/E/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1E",
+      "value_sha256": "f4a4404071196934fdbf9e5590d8a78efc6a4a189222f3a78e642563e7a52fc9"
+    },
+    {
+      "claim": "Available sealed action case outputs",
+      "json_pointer": "/per_encoder/E02/arms/SERIAL_EUCLIDEAN_THEN_COSINE/case_outcomes",
+      "paper_location": "Section 2 Study 3",
+      "result_file": "results/E/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1E",
+      "value_sha256": "63ea8652df4d797ac08aff599a8684538f809da649db34d8dc4587e2491d6c35"
+    },
+    {
+      "claim": "All eight arms, comparators and unfavorable outputs",
+      "json_pointer": "/per_encoder/E02/arms",
+      "paper_location": "Study 3 comparisons",
+      "result_file": "results/E/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1E",
+      "value_sha256": "73aa8bee67edc64c3604640e5a8d90dcc61416bccfb6e49d4bf8c0950332d1cf"
+    },
+    {
+      "claim": "Frozen calibration candidate curve and selection",
+      "json_pointer": "/per_encoder/E02/threshold_freeze",
+      "paper_location": "Study 3 methods",
+      "result_file": "results/E/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1E",
+      "value_sha256": "45adedc30976ab76d9d6c1372fef7bacec2bee0437358d0ad4450891b94633e7"
+    },
+    {
+      "claim": "Serial recall, reduction, safety and disposition accuracy",
+      "json_pointer": "/per_encoder/E03/arms/SERIAL_EUCLIDEAN_THEN_COSINE/overall",
+      "paper_location": "Section 2 Study 3",
+      "result_file": "results/E/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1E",
+      "value_sha256": "5e3868b9221245273854c6469d4923cbe3d8c11b2a09f2feaad9360f5d0ffce4"
+    },
+    {
+      "claim": "Failed serial family support",
+      "json_pointer": "/per_encoder/E03/arms/SERIAL_EUCLIDEAN_THEN_COSINE/family_support",
+      "paper_location": "Section 2 Study 3",
+      "result_file": "results/E/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1E",
+      "value_sha256": "f4a4404071196934fdbf9e5590d8a78efc6a4a189222f3a78e642563e7a52fc9"
+    },
+    {
+      "claim": "Available sealed action case outputs",
+      "json_pointer": "/per_encoder/E03/arms/SERIAL_EUCLIDEAN_THEN_COSINE/case_outcomes",
+      "paper_location": "Section 2 Study 3",
+      "result_file": "results/E/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1E",
+      "value_sha256": "7790a5bba4b7ed5d0e263bc26ce31ae39e89af51921d161caa711fec25362cd2"
+    },
+    {
+      "claim": "All eight arms, comparators and unfavorable outputs",
+      "json_pointer": "/per_encoder/E03/arms",
+      "paper_location": "Study 3 comparisons",
+      "result_file": "results/E/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1E",
+      "value_sha256": "ca766e3ba3a081f9b05fb8f1ed84684d40d9ad6da1f7d5f9e1cce392fdc14749"
+    },
+    {
+      "claim": "Frozen calibration candidate curve and selection",
+      "json_pointer": "/per_encoder/E03/threshold_freeze",
+      "paper_location": "Study 3 methods",
+      "result_file": "results/E/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1E",
+      "value_sha256": "3f9d4174861c40500c87c6e7e84310115561bbb0e5b13c7dedb4af14c7c29e00"
+    },
+    {
+      "claim": "All routing arm results",
+      "json_pointer": "/per_encoder/E01/experiment_A/arms",
+      "paper_location": "Figures 2-3",
+      "result_file": "results/F/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1F",
+      "value_sha256": "0e9c677f59d6c691f0c40ca5db5bd17f100da12213fa3488a20ea679c989fab1"
+    },
+    {
+      "claim": "All seven relation macro-F1/summary arms",
+      "json_pointer": "/per_encoder/E01/experiment_B/pair_level_overall",
+      "paper_location": "Figure 4",
+      "result_file": "results/F/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1F",
+      "value_sha256": "0975bfb6a6443e930fd622e23ea8eb86bf93b1ba9252d2879d314ddc8bdce7cc"
+    },
+    {
+      "claim": "Recorded paired-family effect, interval and adjusted inference",
+      "json_pointer": "/per_encoder/E01/experiment_B/full_vs_best_singleton",
+      "paper_location": "Figure 4",
+      "result_file": "results/F/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1F",
+      "value_sha256": "f4f8dc03c53d9897169b2e69759eab337a48ed4dd775887fc70c7ec9f2f16220"
+    },
+    {
+      "claim": "All disposition comparators",
+      "json_pointer": "/per_encoder/E01/experiment_C/overall",
+      "paper_location": "Figures 2; 5",
+      "result_file": "results/F/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1F",
+      "value_sha256": "59e0936f3711acb7c80ffbc1f5725b0f44ee3c3acf8b482092af78b71e25e0d7"
+    },
+    {
+      "claim": "All eight comparator action-output arrays",
+      "json_pointer": "/per_encoder/E01/experiment_C/action_outputs",
+      "paper_location": "Figure 5",
+      "result_file": "results/F/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1F",
+      "value_sha256": "5e2eda6e2576d5b53ab5d677da5099b11f5aa4cba621684572fda0fa6c02c063"
+    },
+    {
+      "claim": "Oracle-to-prediction confusion; universal escalation",
+      "json_pointer": "/per_encoder/E01/experiment_C/overall/COMPOSED_CANDIDATE/confusion",
+      "paper_location": "Figure 5",
+      "result_file": "results/F/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1F",
+      "value_sha256": "f94ddc9f8f2b90b91ca323a5300cead6ef6b0a37c6f8c4e0e360a587eb9170f2"
+    },
+    {
+      "claim": "Validation summaries; no selection-use inference",
+      "json_pointer": "/per_encoder/E01/validation_descriptive",
+      "paper_location": "Appendix A",
+      "result_file": "results/F/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1F",
+      "value_sha256": "5e3025b0c98b40e843ac8f2747a84baaf1f548ae009a1efeadf0f5f0a37cd4c6"
+    },
+    {
+      "claim": "All routing arm results",
+      "json_pointer": "/per_encoder/E02/experiment_A/arms",
+      "paper_location": "Figures 2-3",
+      "result_file": "results/F/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1F",
+      "value_sha256": "8ee320de19f6276a1ed5a7cc6bfd21ca12803410dd893d1169f089701329f1a6"
+    },
+    {
+      "claim": "All seven relation macro-F1/summary arms",
+      "json_pointer": "/per_encoder/E02/experiment_B/pair_level_overall",
+      "paper_location": "Figure 4",
+      "result_file": "results/F/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1F",
+      "value_sha256": "9337151ca6aadd1994ca941aabfefbb6a1a0aaafca128d29490c5390983bc97c"
+    },
+    {
+      "claim": "Recorded paired-family effect, interval and adjusted inference",
+      "json_pointer": "/per_encoder/E02/experiment_B/full_vs_best_singleton",
+      "paper_location": "Figure 4",
+      "result_file": "results/F/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1F",
+      "value_sha256": "322af7fadacb49986851d72897166441c8647f16965d37b524744fd6d938a6dd"
+    },
+    {
+      "claim": "All disposition comparators",
+      "json_pointer": "/per_encoder/E02/experiment_C/overall",
+      "paper_location": "Figures 2; 5",
+      "result_file": "results/F/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1F",
+      "value_sha256": "4ed9bea48547239333d01712cb34b5467d6d10faa0a1423a3fa8d49e41b71112"
+    },
+    {
+      "claim": "All eight comparator action-output arrays",
+      "json_pointer": "/per_encoder/E02/experiment_C/action_outputs",
+      "paper_location": "Figure 5",
+      "result_file": "results/F/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1F",
+      "value_sha256": "420d7845e80ce95947acb692dd6c073669eda571f6689bfb0ef95a13f2802d24"
+    },
+    {
+      "claim": "Oracle-to-prediction confusion; universal escalation",
+      "json_pointer": "/per_encoder/E02/experiment_C/overall/COMPOSED_CANDIDATE/confusion",
+      "paper_location": "Figure 5",
+      "result_file": "results/F/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1F",
+      "value_sha256": "f94ddc9f8f2b90b91ca323a5300cead6ef6b0a37c6f8c4e0e360a587eb9170f2"
+    },
+    {
+      "claim": "Validation summaries; no selection-use inference",
+      "json_pointer": "/per_encoder/E02/validation_descriptive",
+      "paper_location": "Appendix A",
+      "result_file": "results/F/scientific-result.json",
+      "status": "SAVED_FIELD_TRACE_ONLY",
+      "stored_value": null,
+      "study": "SYSTEM-K-K-F1F",
+      "value_sha256": "bb33adb50d893b777d427e3004b9b21de8c6339b8b88bf326ae564236f7c71b0"
+    }
+  ],
+  "conceptual_figure_1": "No empirical result pointer; conceptual sequence only",
+  "field_reference_basis": "Accepted saved-result trace plus inspected output fields; paper location labels are trace references, not a new complete manuscript-version audit.",
+  "recompute_status": "INCOMPLETE; pointer resolution is not full metric or inferential reproduction",
+  "schema": "saved-result-claim-field-map-v0.1",
+  "study_D_denominator_correction": "936 canonical pairs expanded to 2808 rendered surface pairs scored per encoder; 936 calibration and 1872 sealed surface rows per encoder. Do not divide the result census by the encoder count."
+}

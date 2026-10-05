@@ -1,0 +1,27 @@
+{
+  "binding": "frozen local model_runtime.py AST constants, not a model execution receipt",
+  "encoders": [
+    {
+      "action_prefix": "",
+      "identity": "sentence-transformers/all-mpnet-base-v2",
+      "maximum_length": 512,
+      "pooling": "attention_masked_mean",
+      "precision": "float32",
+      "reference_prefix": "",
+      "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+      "slot": "E01"
+    },
+    {
+      "action_prefix": "query: ",
+      "identity": "intfloat/e5-base-v2",
+      "maximum_length": 512,
+      "pooling": "attention_masked_mean",
+      "precision": "float32",
+      "reference_prefix": "passage: ",
+      "revision": "f52bf8ec8c7124536f0efb74aca902b2995e5bcd",
+      "slot": "E02"
+    }
+  ],
+  "model_assets_included": false,
+  "torch_manual_seed": 80412026
+}

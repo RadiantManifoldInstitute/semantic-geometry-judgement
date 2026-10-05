@@ -1,0 +1,17 @@
+{
+  "schema_version": "K_F1C_GENERATION_CONTRACT_V0_1",
+  "seeds": [41381001,41381002,41381003,41381004,41381005,41381006,41381007,41381008],
+  "counts": {"families":20,"scenarios":60,"actions":240,"references":180,"ancestry_edges":120,"canonical_pairs":720,"surfaces":2160,"blinded_records":2160,"sealed_gold_records":2160,"sealed_join_records":2160},
+  "levels": ["L1_CONCRETE","L2_OPERATIONAL","L3_PURPOSE"],
+  "surface_classes": ["CANONICAL","WORDING_SUBSTITUTION","CLAUSE_ORDER"],
+  "cell_schedule": {
+    "L1_CONCRETE": ["APPLICABLE_ALIGNED","APPLICABLE_OPPOSED","NOT_APPLICABLE_NONOPPOSED","NOT_APPLICABLE_APPARENTLY_OPPOSED"],
+    "L2_OPERATIONAL": ["APPLICABLE_OPPOSED","NOT_APPLICABLE_NONOPPOSED","NOT_APPLICABLE_APPARENTLY_OPPOSED","APPLICABLE_ALIGNED"],
+    "L3_PURPOSE": ["APPLICABLE_OPPOSED","NOT_APPLICABLE_APPARENTLY_OPPOSED","APPLICABLE_ALIGNED","NOT_APPLICABLE_NONOPPOSED"]
+  },
+  "record_order": ["canonical_pair_id","surface_id"],
+  "record_integrity": {"self_field":"payload_sha256","encoding":"UTF-8","unicode":"NFC","key_order":"lexicographic UTF-8 bytes","whitespace":"none","terminator":"LF","omit_only_self_field":true},
+  "geometry_or_model_access": false,
+  "human_or_external_oracle_access": false,
+  "sensitive_domain_access": false
+}

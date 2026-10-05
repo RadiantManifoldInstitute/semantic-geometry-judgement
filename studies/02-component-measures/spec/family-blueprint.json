@@ -1,0 +1,32 @@
+{
+  "schema_version": "K_F1D_FAMILY_BLUEPRINT_V0_1",
+  "families": [
+    {"family_id":"KFD_F01","split":"CALIBRATION","domain":"water distribution","actor":"valve coordinator","object":"pressure reserve","adjacent_object":"chlorine ledger","mission":"stable delivery","adjacent_mission":"chemical accounting","aligned":"stabilize","opposed":"disperse"},
+    {"family_id":"KFD_F02","split":"CALIBRATION","domain":"wildfire coordination","actor":"air operations lead","object":"retardant corridor","adjacent_object":"crew roster","mission":"fireline containment","adjacent_mission":"shift accounting","aligned":"reinforce","opposed":"dissolve"},
+    {"family_id":"KFD_F03","split":"CALIBRATION","domain":"clinical specimen routing","actor":"laboratory dispatcher","object":"cold-chain specimen","adjacent_object":"billing packet","mission":"sample integrity","adjacent_mission":"charge reconciliation","aligned":"preserve","opposed":"degrade"},
+    {"family_id":"KFD_F04","split":"CALIBRATION","domain":"satellite telemetry","actor":"telemetry controller","object":"attitude channel","adjacent_object":"invoice channel","mission":"orbital stability","adjacent_mission":"vendor accounting","aligned":"anchor","opposed":"destabilize"},
+    {"family_id":"KFD_F05","split":"SEALED","domain":"rail signaling","actor":"signal coordinator","object":"block clearance","adjacent_object":"station signage","mission":"collision avoidance","adjacent_mission":"passenger wayfinding","aligned":"secure","opposed":"invalidate"},
+    {"family_id":"KFD_F06","split":"SEALED","domain":"power restoration","actor":"grid dispatcher","object":"feeder reserve","adjacent_object":"meter archive","mission":"service continuity","adjacent_mission":"billing continuity","aligned":"balance","opposed":"scatter"},
+    {"family_id":"KFD_F07","split":"SEALED","domain":"food cold chain","actor":"warehouse controller","object":"temperature buffer","adjacent_object":"label inventory","mission":"product safety","adjacent_mission":"packaging continuity","aligned":"maintain","opposed":"erode"},
+    {"family_id":"KFD_F08","split":"SEALED","domain":"public records","actor":"records steward","object":"retention chain","adjacent_object":"office calendar","mission":"evidence continuity","adjacent_mission":"meeting coordination","aligned":"sustain","opposed":"break"},
+    {"family_id":"KFD_F09","split":"SEALED","domain":"coastal barriers","actor":"barrier operator","object":"surge buffer","adjacent_object":"visitor register","mission":"flood protection","adjacent_mission":"tour scheduling","aligned":"fortify","opposed":"weaken"},
+    {"family_id":"KFD_F10","split":"SEALED","domain":"orbital debris response","actor":"conjunction analyst","object":"avoidance corridor","adjacent_object":"conference abstract","mission":"collision prevention","adjacent_mission":"research scheduling","aligned":"protect","opposed":"compromise"},
+    {"family_id":"KFD_F11","split":"SEALED","domain":"emergency shelters","actor":"shelter coordinator","object":"capacity reserve","adjacent_object":"donation newsletter","mission":"safe accommodation","adjacent_mission":"donor communication","aligned":"retain","opposed":"exhaust"},
+    {"family_id":"KFD_F12","split":"SEALED","domain":"agricultural irrigation","actor":"canal scheduler","object":"drought reserve","adjacent_object":"equipment catalog","mission":"crop continuity","adjacent_mission":"procurement tracking","aligned":"conserve","opposed":"deplete"}
+  ],
+  "wrong_mission": {
+    "domain": "museum exhibition lighting",
+    "actor": "gallery electrician",
+    "object": "display luminance",
+    "mission": "artifact presentation",
+    "aligned": "calibrate"
+  },
+  "scenario_suffixes": ["north sector", "south sector"],
+  "level_phrases": {
+    "L1_CONCRETE": "concrete operating rule",
+    "L2_OPERATIONAL": "operational objective",
+    "L3_PURPOSE": "higher mission purpose"
+  },
+  "magnitude_phrases": {"1":"tier one", "2":"tier two", "3":"tier three", "4":"tier four"},
+  "surface_classes": ["CANONICAL", "BOUNDED_PARAPHRASE", "CLAUSE_ORDER"]
+}

@@ -1,0 +1,234 @@
+{
+  "arms": [
+    "SERIAL_EUCLIDEAN_THEN_COSINE",
+    "COSINE_ONLY",
+    "EUCLIDEAN_ONLY",
+    "REVERSED_COSINE_THEN_EUCLIDEAN",
+    "CONVENTIONAL_TOP_K_RETRIEVAL",
+    "DETERMINISTIC_KEYWORD_OR_RULE_ROUTING_BASELINE",
+    "FROZEN_FULL_RDVI_PROFILE",
+    "EXHAUSTIVE_POLICY_EVALUATION_ORACLE"
+  ],
+  "dispositions": {
+    "HARMFUL": "false_ACT>=0.10 OR blocking_miss>=0.25",
+    "INFEASIBLE": "frozen_required_AWS_encoder_custody_or_budget_path_cannot_run",
+    "INVALID": "structural_isolation_schema_census_score_or_reconciliation_failure",
+    "NARROW": "safety_retained_but_accuracy_efficiency_surface_or_family_support_short",
+    "NULL": "useful_profile_not_established_without_harm_gate",
+    "WORKABLE": "primary_success_conjunction_and_at_least_7_of_8_sealed_families",
+    "allowed": [
+      "WORKABLE",
+      "NARROW",
+      "NULL",
+      "HARMFUL",
+      "INVALID",
+      "INFEASIBLE",
+      "INDETERMINATE"
+    ],
+    "favorable_only_disposition": "impossible"
+  },
+  "frozen_corpus": {
+    "abstraction_layers": [
+      "L1_CONCRETE",
+      "L2_OPERATIONAL",
+      "L3_PURPOSE"
+    ],
+    "actions": 1296,
+    "calibration_pairs": 3456,
+    "cardinalities": [
+      "ZERO",
+      "ONE",
+      "MULTIPLE_COMPATIBLE",
+      "MULTIPLE_CONFLICTING"
+    ],
+    "dual_reproduction": {
+      "agreement": "EXACT_BYTES_FOR_SEVEN_ORACLE_AND_JOIN_FILES",
+      "path_a": "Python",
+      "path_b": "Ruby"
+    },
+    "expansion_exclusion_or_substitution_after_freeze": "prohibited",
+    "families": {
+      "calibration": 4,
+      "sealed": 8,
+      "total": 12
+    },
+    "family_blueprint_sha256": "3bae63530fa544518b18d292b879cc0245b66b0bdb7a4a0069e3cf8053927319",
+    "frozen_hashes": {
+      "action_oracle": "c6fd88b23d93c32ff6817fe8e015f4013018a7ee2547a9e47280d220a6ce6359",
+      "blinded_scoring_input": "2ecacd518ccb4479669af4d1a516c375935fe12b5d6dd015a948afa7c9c8e232",
+      "calibration_gold": "e56c4dbc1dc4a1230e371b24fbda4514211cb63d93f1b4a9708b2048141a4c8a",
+      "calibration_join": "1bf488d18de702450887daa80cd0c0c7e9148badc6867b5da8404d636be93299",
+      "policy_oracle": "78b70aade2b2fb415ef014fd4c46dc1f39f32006f51c2d23df791fb49990f256",
+      "sealed_gold": "1f7bee2139cd4ee53de82e5fbd7d8a831ef61d547ce31f23271649dab322a0f6",
+      "sealed_join": "022a467e9c315b3bd99dd614f5e04e41455551ac86d3e93690a23232cce0fa88",
+      "surface_inheritance_proof": "a8f5f0a89d017be3b11e298be9adafb5edf777d1aa2c3d2c31429826c06efb14"
+    },
+    "generation_contract_sha256": "4e06b3558af104a02d6315ca20df037bc053bad25c07482ba5f9248f8e9369f0",
+    "policies_per_family": 8,
+    "policy_pairs": 10368,
+    "sealed_pairs": 6912,
+    "source_kind": "RIMS_AUTHORED_NONPERSONAL_SYNTHETIC_TEXT_AND_EXECUTABLE_ORACLE",
+    "surfaces": [
+      "CANONICAL",
+      "BOUNDED_PARAPHRASE",
+      "EXPLICIT_NEGATION",
+      "TOPICAL_OPPOSITION",
+      "WRONG_MISSION_DECOY",
+      "LEXICALLY_SIMILAR_NONGOVERNING",
+      "UNUSUAL_MISSION_SERVING",
+      "CLAUSE_ORDER",
+      "HARMLESS_WORDING"
+    ]
+  },
+  "frozen_encoders": {
+    "E01": {
+      "identity": "sentence-transformers/all-mpnet-base-v2",
+      "pooling": "attention_masked_mean",
+      "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130"
+    },
+    "E02": {
+      "action_prefix": "query: ",
+      "identity": "intfloat/e5-base-v2",
+      "policy_prefix": "passage: ",
+      "pooling": "attention_masked_mean",
+      "revision": "f52bf8ec8c7124536f0efb74aca902b2995e5bcd"
+    },
+    "E03": {
+      "action_prefix": "Represent this sentence for searching relevant passages: ",
+      "identity": "BAAI/bge-base-en-v1.5",
+      "pooling": "first_token_cls",
+      "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a"
+    },
+    "maximum_tokens": 512,
+    "precision": "float32",
+    "replacement_after_freeze": "prohibited"
+  },
+  "frozen_serial_mechanism": {
+    "invalid_score": "INVALID_BEFORE_DISPOSITION",
+    "stage_1": {
+      "formula": "norm(action_embedding-policy_centroid_embedding)",
+      "representation": "RAW_EUCLIDEAN",
+      "rule": "calibration_frozen_threshold_then_nearest_budget_with_deterministic_ties"
+    },
+    "stage_2": {
+      "formula": "cosine(action,aligned_anchor)-cosine(action,opposed_anchor)",
+      "representation": "COSINE_DIRECTION_MARGIN",
+      "rule": "classify retained policies against calibration_frozen_direction_margin"
+    },
+    "stage_3": {
+      "rule": "deterministic_ACT_HOLD_ESCALATE_mapping_with_uncertainty_and_conflict_fail_closed"
+    },
+    "zero_route": "ACT_ONLY_IF_NO_SEMANTIC_POLICY_IS_RETAINED_AND_ORACLE_COMPARISON_LATER_CONFIRMS_FOR_SCORING"
+  },
+  "maximum_claim": {
+    "ceiling": "EXACT_FROZEN_SYNTHETIC_POLICY_WORLD_THREE_ENCODERS_ONLY",
+    "prohibited": [
+      "real_world_policy_or_legal_correctness",
+      "autonomous_compliance_or_safety_adjudication",
+      "external_validity_beyond_the_frozen_world",
+      "interactive_or_production_latency",
+      "superiority_from_any_single_favorable_cell"
+    ],
+    "question": "In the exact frozen synthetic machine-verifiable policy world and three inherited encoders, can raw-Euclidean policy selection followed by cosine direction preserve decision-changing policies and correct ACT, HOLD, or ESCALATE dispositions while evaluating fewer policies than exhaustive evaluation?"
+  },
+  "outcomes_and_reporting": {
+    "complete_cells_required": true,
+    "mandatory_strata": [
+      "encoder",
+      "family",
+      "cardinality",
+      "abstraction",
+      "surface_class",
+      "arm"
+    ],
+    "multiplicity": "no_single_favorable_cell_licenses_a_claim",
+    "primary": [
+      "governing_policy_recall",
+      "blocking_policy_miss_rate",
+      "final_disposition_accuracy",
+      "false_ACT_rate",
+      "false_HOLD_rate",
+      "escalation_rate",
+      "policies_evaluated_per_action",
+      "policy_evaluation_reduction_vs_exhaustive"
+    ],
+    "secondary": [
+      "irrelevant_review_rate",
+      "semantic_policies_scored_per_action",
+      "conflict_ESCALATE_recall",
+      "budget_curve",
+      "latency",
+      "cost"
+    ],
+    "uncertainty": "exact_finite_census_by_cell_plus_descriptive_family_bootstrap"
+  },
+  "primary_success_rule": {
+    "blocking_policy_miss_rate_max": 0.0,
+    "conflict_ESCALATE_recall_min": 0.95,
+    "conjunction_required": true,
+    "each_surface_governing_recall_min": 0.9,
+    "false_ACT_rate_max": 0.0,
+    "final_disposition_accuracy_min": 0.95,
+    "governing_policy_recall_min": 0.95,
+    "policy_evaluation_reduction_min": 0.5,
+    "supporting_sealed_families_min": 7
+  },
+  "projection_kind": "SCIENTIFIC_PROTOCOL_NOT_OPERATIONAL_RECEIPT",
+  "semantic_oracle_boundary": {
+    "deterministic_oracle_outputs": [
+      "NONE",
+      "ALIGNED",
+      "OPPOSED",
+      "AMBIGUOUS"
+    ],
+    "final_mapping": {
+      "aligned_and_opposed_conflict": "ESCALATE",
+      "any_ambiguous": "ESCALATE",
+      "no_applicable_policy": "ACT",
+      "only_aligned": "ACT",
+      "only_opposed": "HOLD"
+    },
+    "semantic_pipeline_may_not_read": [
+      "family_id",
+      "split",
+      "action_id",
+      "policy_id",
+      "cardinality",
+      "abstraction",
+      "surface_class",
+      "applicable_bit",
+      "relation",
+      "blocking_bit",
+      "expected_disposition"
+    ],
+    "semantic_pipeline_may_read": [
+      "action_text",
+      "policy_text",
+      "aligned_reference_text",
+      "opposed_reference_text",
+      "policy_route_terms"
+    ]
+  },
+  "source_protocol_sha256": "68727f426db2eb7e72c94a75d512e79833be824c108d2bdc00e525174b5e126d",
+  "study": "SYSTEM-K-K-F1E",
+  "threshold_freeze": {
+    "Euclidean_grid": "deterministic_unique_calibration_distances_at_most_34_points",
+    "budgets": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "direction_margins": [
+      0.0,
+      0.01,
+      0.02,
+      0.05,
+      0.1
+    ],
+    "fail_closed": "minimize_false_ACT_then_blocking_miss_then_maximize_recall_accuracy_and_reduction_then_deterministic_ties",
+    "feasibility": "governing_recall>=0.95 AND blocking_miss=0 AND false_ACT=0",
+    "source": "FOUR_CALIBRATION_FAMILIES_ONLY"
+  },
+  "title": "Serial Semantic Policy-Check Usefulness Study"
+}

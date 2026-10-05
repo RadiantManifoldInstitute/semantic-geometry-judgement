@@ -1,0 +1,14 @@
+{
+  "blinded_rows": 2160,
+  "blinded_sha256": "f8905224b117d0ed821a970d8d1b4823f8c49538373cde76ed80179e2e3b148e",
+  "dual_constructor_agreement": "PASS",
+  "fixture_kind": "ACCEPTED_K_F1C_DUAL_CONSTRUCTOR",
+  "record_hashes": {
+    "ancestry-proof.jsonl": "465f1196e54c7ee1947108bfab106e56278d3613e85504b84353201f3f7f9060",
+    "canonical-gold.jsonl": "a5c20557fcee4e3fddef79db846301fed6e1dd27bdc910220da0bac3ca98a3e8",
+    "sealed-gold.jsonl": "30a5009d86f19199f66f9950c582b1f503148dd2fd82b8c37facfb37b771e9b9",
+    "sealed-join.jsonl": "f9b289c3a3cbbbd7034ec646c844c28b1efa4deda16ef862f82c2750be51aced",
+    "surface-inheritance-proof.jsonl": "e7e085ccecc3044bccb79ffc573019850b1c015f575a947aa08b4c203fbfcdb1",
+    "transition-proof.jsonl": "e1124241d01077b39becbeb1afb26e72fa9498444751a1ecd094bd35662ad0f5"
+  }
+}

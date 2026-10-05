@@ -1,0 +1,3 @@
+# Portable analysis resolution from observed C inventory, not original D/E/F active environment proof.
+numpy==2.5.3
+scipy==1.18.1

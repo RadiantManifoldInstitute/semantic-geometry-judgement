@@ -1,0 +1,70 @@
+{
+  "attempt": "SCI-A02",
+  "inherited_scientific_plan_sha256": "9b23c57d21ec4b42d71c726bff684a4b444f8f4aba75b308614e76517d61d98f",
+  "only_protocol_change": {
+    "predecessor": {
+      "gradient_infinity_norm_max": 1e-10,
+      "iterations_max": 1000,
+      "objective_relative_change_max": 1e-12,
+      "stopping_logic": "BOTH_REQUIRED"
+    },
+    "successor": {
+      "absolute_gradient_guard_max": 1e-06,
+      "finite_objective_coefficients_intercepts_gradients_and_probabilities_required": true,
+      "fit_failure_mapping": "PRIMARY_COMPARISON_INFEASIBLE_NO_SUBSTITUTION",
+      "gradient_infinity_norm_max": 1e-08,
+      "iterations_max": 1000,
+      "objective_and_parameterization": "UNCHANGED",
+      "objective_relative_change_max": 1e-12,
+      "optimizer": "scipy_L-BFGS-B_deterministic_full_batch",
+      "optimizer_success_required": true,
+      "stopping_logic": "optimizer_success AND finite_outputs AND absolute_gradient_guard AND (gradient_branch OR objective_relative_change_branch)",
+      "substitution": "NONE"
+    },
+    "surface": "numerical_convergence_contract"
+  },
+  "predecessor": {
+    "attempt": "SCI-A01",
+    "disposition": "PRIMARY_COMPARISON_INFEASIBLE_NO_SUBSTITUTION",
+    "preservation": "IMMUTABLE_NO_OVERWRITE_NO_RELABEL",
+    "reader_source_sha256": "6bc912dc2a6d16b9f950682d315bd105aa957a9dcec278c18257163863e7d95d",
+    "scientific_result": false
+  },
+  "projection_kind": "SCIENTIFIC_PROTOCOL_NOT_OPERATIONAL_RECEIPT",
+  "reader_sha256": "f4b820dfe2644c85f594e0f4c85eee4d083b9163536119a888fccda1bc3ae2e2",
+  "source_protocol_sha256": "edb2991c1b97a76781d4ad427471a420e215fd5a0d68d833cdf3c97ac382ef0f",
+  "study": "SYSTEM-K-K-F1C",
+  "terminal_contract": {
+    "complete_E1_through_E10_reporting_required_when_reader_fits_exist": true,
+    "no_favorable_only_disposition": true,
+    "no_post_result_tuning_rerun_expansion_or_threshold_change": true,
+    "valid": [
+      "WORKABLE_MINIMAL_BASIS_SIGNAL",
+      "NARROW_REPRESENTATION_DEPENDENT_SIGNAL",
+      "SCALAR_SUFFICIENT_NO_PROFILE_GAIN",
+      "NO_SEPARABLE_SIGNAL",
+      "HARMFUL_OR_MISLEADING_SIGNAL",
+      "INFEASIBLE",
+      "INDETERMINATE"
+    ]
+  },
+  "unchanged_frozen_surfaces": [
+    "hypothesis",
+    "corpus_and_720_pair_census",
+    "gold_labels_and_geometry_free_cells",
+    "construction_lock_validation_and_sealed_holdout_family_split",
+    "three_admitted_encoder_identities",
+    "S0_M1_F1_arms_and_feature_definitions",
+    "common_four_class_multinomial_linear_reader_class",
+    "preprocessing_and_zero_variance_rule",
+    "mean_cross_entropy_plus_L2_1_objective",
+    "all_zero_initialization",
+    "exact_zero_sum_identifiability_parameterization",
+    "controls_nulls_and_lexical_comparators",
+    "E1_through_E10_estimands",
+    "all_effect_thresholds_arm_floors_kill_rules_and_terminal_mapping",
+    "no_post_score_tuning_and_complete_unfavorable_reporting",
+    "claim_and_interpretation_ceilings",
+    "two_independent_AWS_replicas_and_exact_reconciliation"
+  ]
+}

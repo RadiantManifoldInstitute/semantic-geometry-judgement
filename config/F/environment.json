@@ -1,0 +1,52 @@
+{
+  "dependency_binding": "D/E/F environment receipt does not identify active numpy/scipy or transitive distribution versions",
+  "environment": {
+    "HF_HUB_OFFLINE": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PYTHONHASHSEED": "0",
+    "TOKENIZERS_PARALLELISM": "false",
+    "TRANSFORMERS_OFFLINE": "1",
+    "TZ": "UTC"
+  },
+  "image_digest": "69bea654c4bee067a10e2ffb21c8b340fdb8209903ca663f007b1ef1bd6863a4",
+  "machine": "x86_64",
+  "platform": "Linux-6.1.182-x86_64-with-glibc2.36",
+  "python": "3.12.11 (main, Sep 30 2025, 00:40:22) [GCC 12.2.0]",
+  "replica": "replica-a",
+  "runtime_schema_hashes": {
+    "._latency-record.schema.json": "68862817707455048c82d8a2c9b8ee9098eb96ed175c7e8100e6817ea8f87298",
+    "._prejoin-manifest.schema.json": "68862817707455048c82d8a2c9b8ee9098eb96ed175c7e8100e6817ea8f87298",
+    "._replica-reconciliation.schema.json": "68862817707455048c82d8a2c9b8ee9098eb96ed175c7e8100e6817ea8f87298",
+    "._replica-terminal.schema.json": "68862817707455048c82d8a2c9b8ee9098eb96ed175c7e8100e6817ea8f87298",
+    "._scientific-result.schema.json": "68862817707455048c82d8a2c9b8ee9098eb96ed175c7e8100e6817ea8f87298",
+    "latency-record.schema.json": "9f9ac34c21f4084997732ed0baa9aa2b6a0f6d67c5a43b5a0fb76a4158435be8",
+    "prejoin-manifest.schema.json": "97a31e5fddb4013787aa3a430ed412f0a2009953e0fffb5a852f12737f99dbd3",
+    "replica-reconciliation.schema.json": "76ad169beb8a76ab4e1023599506ea2b42f3cb2f0615d61d534a7449bf7ac80d",
+    "replica-terminal.schema.json": "28c0676e694e6ffc4914d08dbd63160df6035f5bcf73b2c3b14ca0549cd2e85c",
+    "scientific-result.schema.json": "ea10e27423695bddb146f81735241ed345a6ebae335d755bc540a362fbfaaf76"
+  },
+  "runtime_source_hashes": {
+    ".___init__.py": "68862817707455048c82d8a2c9b8ee9098eb96ed175c7e8100e6817ea8f87298",
+    "._analysis.py": "68862817707455048c82d8a2c9b8ee9098eb96ed175c7e8100e6817ea8f87298",
+    "._canonical.py": "68862817707455048c82d8a2c9b8ee9098eb96ed175c7e8100e6817ea8f87298",
+    "._custody.py": "68862817707455048c82d8a2c9b8ee9098eb96ed175c7e8100e6817ea8f87298",
+    "._executor.py": "68862817707455048c82d8a2c9b8ee9098eb96ed175c7e8100e6817ea8f87298",
+    "._latency.py": "68862817707455048c82d8a2c9b8ee9098eb96ed175c7e8100e6817ea8f87298",
+    "._model_runtime.py": "68862817707455048c82d8a2c9b8ee9098eb96ed175c7e8100e6817ea8f87298",
+    "._reconcile.py": "68862817707455048c82d8a2c9b8ee9098eb96ed175c7e8100e6817ea8f87298",
+    "._representations.py": "68862817707455048c82d8a2c9b8ee9098eb96ed175c7e8100e6817ea8f87298",
+    "__init__.py": "c9b14e9cbb8ea3bf0c3388324f17afba25e53cda0f7432e9b0fee39cff0342de",
+    "analysis.py": "a390ac7b789613bf11186655f1823953a39fdf50ffbbff07f64081ffc2fd5abe",
+    "canonical.py": "b5f3b2d1cfd30fa52eeec2c2b5be47b8645e7e0c51d7cd90ab19420d4819257f",
+    "custody.py": "20c5c7d58463cc6f3ed3ff6f3a11beafa2288e9e1da51312a5c5745cb69cabac",
+    "executor.py": "719d1d232923e5db468f0f0dfaa7c8a0fe14672708245430cd24d433b240e578",
+    "latency.py": "835e8192626f658a662431b445245502565a456943569615b14cecf09235fd25",
+    "model_runtime.py": "d941ba1551366f1d91dd9694f1ecabb7959433ca525d255bda9247c684d695fe",
+    "reconcile.py": "c5ee69f29dca2e7b0482709574eb059107a8760c5dfff5cc95231a4d8aab53dd",
+    "representations.py": "4f2c9fc08b135a658345dc9d9d93d5d12cac26d9670b20372310a5f8699782a8"
+  },
+  "source_manifest_sha256": "034a43aa6c66724abc3d63eb35c371b8fff80a25817a7e0fb8b42fba031a037d"
+}
